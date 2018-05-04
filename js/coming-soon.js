@@ -19,11 +19,12 @@ let demo = function(){
         }
         
         if($("#flag").val()==1){
-            $(".aparecido").show(3000);
+            $(".aparecido").show(2000);
         }else{
-             $(".aparecido").hide(3000);
+             $(".aparecido").hide(2000);
         }
 }
+
 
 /*if($("#flag").val() == 0){
             $("#flag").val(1)    

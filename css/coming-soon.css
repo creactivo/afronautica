@@ -153,15 +153,30 @@ body {
         line-height: 1.5rem;
         color: #06173f; } }
 
+/*body{
+	overflow-y: hidden;
+}*/
+p {
+  font-size: 1.2rem;
+  line-height: 1.3rem; }
+
 .aparecido {
   width: 100%;
   height: auto;
-  margin: 15% -15px;
+  margin: 0 -15px;
   background-color: white;
   position: absolute;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.contenedor-datos {
+  margin-top: 80px; }
+
+/*.scrollbar{
+   height: auto;
+   overflow-y: scroll;
+}
+*/
 /* mobile*/
 .social-icons {
   position: fixed;
