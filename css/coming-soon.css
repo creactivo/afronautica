@@ -153,30 +153,32 @@ body {
         line-height: 1.5rem;
         color: #06173f; } }
 
-/*body{
-	overflow-y: hidden;
-}*/
+body {
+  overflow-y: hidden; }
+
 p {
   font-size: 1.2rem;
   line-height: 1.3rem; }
 
 .aparecido {
+  position: absolute;
   width: 100%;
   height: auto;
   margin: 0 -15px;
-  background-color: white;
-  position: absolute;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  background-color: white; }
+
+.aparecido2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white; }
 
 .contenedor-datos {
-  margin-top: 80px; }
+  margin-top: 5%; }
 
-/*.scrollbar{
-   height: auto;
-   overflow-y: scroll;
-}
-*/
+.scrollbar {
+  overflow-y: scroll; }
+
 /* mobile*/
 .social-icons {
   position: fixed;

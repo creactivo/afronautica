@@ -10,22 +10,26 @@
   })
 })(jQuery)
 
-let demo = function(){
+// let demo = function(){
 	
-	if($("#flag").val() == 0){
-            $("#flag").val(1)    
-        }else{
-            $("#flag").val(0)
-        }
+// 	if($("#flag").val() == 0){
+//             $("#flag").val(1)    
+//         }else{
+//             $("#flag").val(0)
+//         }
         
-        if($("#flag").val()==1){
-            $(".aparecido").show(2000);
-        }else{
-             $(".aparecido").hide(2000);
-        }
+//         if($("#flag").val()==1){
+//             $(".aparecido").show(2000);
+//         }else{
+//              $(".aparecido").hide(2000);
+//         }
+// };
+
+
+function mostrar(){
+var section = document.getElementById('aparecido2');
+    section.style.display = none;
 }
-
-
 /*if($("#flag").val() == 0){
             $("#flag").val(1)    
         }else{
