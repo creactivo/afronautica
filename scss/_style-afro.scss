@@ -5,21 +5,62 @@ p{
 	font-size: 1.2rem;
 	line-height: 1.3rem;
 }
-.aparecido{
-	position: absolute;
-	width: 100%;
-	height: auto;
-	margin: 0 -15px;
-	background-color: white;
-	
-}
-.aparecido2{
+
+#aparecido1{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: none;
+  visibility: collapse;
+  -webkit-animation-name: mymove2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: mymove2;
+  animation-duration: 1s;
+	&.boton1{
+	background-color: red;
 	position: relative;
-	width: 100%;
-	height: auto;
-	background-color: white;
-	
+    right: 0%;
+    display: block;
+    visibility: visible;
 }
+@keyframes mymove2 {
+    from {right: 100%;}
+    to {right: 0%;}
+}
+
+}
+#aparecido2{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: none;
+  visibility: collapse;
+  -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: mymove;
+    animation-duration: 1s;
+	&.boton2{
+	background-color: blue;
+	position: relative;
+    right: 0%;
+    display: block;
+    visibility: visible;
+}
+@keyframes mymove {
+    from {right: 100%;}
+    to {right: 0%;}
+}
+  
+}
+
+
+
+    
+/*
+
+
 .contenedor-datos{
 	margin-top: 5%;
 }
@@ -28,3 +69,4 @@ p{
     overflow-y: scroll;
 
 }
+*/

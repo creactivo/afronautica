@@ -1,3 +1,6 @@
+var $target = $('#aparecido1,#aparecido2');
+
+
 (function(){
 	"use strict"; // Start of use strict
 
@@ -8,7 +11,7 @@
   }, {
     posterType: 'jpg'
   })
-})(jQuery)
+})(jQuery);
 
 // let demo = function(){
 	
@@ -26,10 +29,11 @@
 // };
 
 
-function mostrar(){
-var section = document.getElementById('aparecido2');
-    section.style.display = none;
-}
+// function mostrar(){
+//     console.log('jnjn')
+// var section = document.getElementById('aparecido2');
+//     section.style.display = 'block';
+// }
 /*if($("#flag").val() == 0){
             $("#flag").val(1)    
         }else{
@@ -41,3 +45,8 @@ var section = document.getElementById('aparecido2');
         }else{
             $("#id_tope").show(1500);
         }*/
+
+$('#boton-inferiores').on('click','a',function(){
+    $target.removeClass().addClass($(this).attr('id'));
+    console.log($(this).attr('id'));
+});
