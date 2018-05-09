@@ -161,42 +161,46 @@ p {
   line-height: 1.3rem; }
 
 #aparecido1 {
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: auto;
-  background-color: white;
+  height: 100%;
   display: none;
   visibility: collapse;
-  -webkit-animation-name: mymove2;
+  -webkit-animation-name: mymove;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 1s;
   /* Safari 4.0 - 8.0 */
-  animation-name: mymove2;
+  animation-name: mymove;
   animation-duration: 1s; }
   #aparecido1.boton1 {
-    background-color: red;
-    position: relative;
-    right: 0%;
-    display: block;
+    position: absolute;
+    display: inline-block;
     visibility: visible; }
 
-@-webkit-keyframes mymove2 {
+@-webkit-keyframes mymove {
   from {
-    right: 100%; }
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0; }
   to {
-    right: 0%; } }
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    opacity: 1; } }
 
-@keyframes mymove2 {
+@keyframes mymove {
   from {
-    right: 100%; }
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0; }
   to {
-    right: 0%; } }
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    opacity: 1; } }
 
 #aparecido2 {
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: auto;
-  background-color: white;
+  height: 100%;
   display: none;
   visibility: collapse;
   -webkit-animation-name: mymove;
@@ -206,36 +210,46 @@ p {
   animation-name: mymove;
   animation-duration: 1s; }
   #aparecido2.boton2 {
-    background-color: blue;
-    position: relative;
-    right: 0%;
-    display: block;
+    position: absolute;
+    display: inline-block;
     visibility: visible; }
 
-@-webkit-keyframes mymove {
-  from {
-    right: 100%; }
-  to {
-    right: 0%; } }
+.background-afro {
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 20%; }
 
-@keyframes mymove {
-  from {
-    right: 100%; }
-  to {
-    right: 0%; } }
+.video-afro {
+  display: block;
+  margin: 40% 0%; }
 
-/*
+.p-video {
+  padding-left: 10%;
+  padding-right: 10%; }
 
+.mt-6 {
+  margin-top: 5%; }
 
-.contenedor-datos{
-	margin-top: 5%;
-}
+.cerrar {
+  position: relative;
+  line-height: 3.2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  color: blue;
+  top: 5%;
+  left: 25%;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%; }
 
-.scrollbar{
-    overflow-y: scroll;
+.scrollbar {
+  height: auto;
+  overflow-y: scroll;
+  margin-bottom: 10%; }
 
-}
-*/
 /* mobile*/
 .social-icons {
   position: fixed;
