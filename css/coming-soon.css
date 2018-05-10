@@ -154,16 +154,25 @@ body {
         color: #06173f; } }
 
 body {
-  overflow-y: hidden; }
+  height: 100%;
+  overflow: hidden;
+  font-weight: 300;
+  color: #1C4288;
+  font-family: 'Ubuntu', sans-serif; }
 
 p {
   font-size: 1.2rem;
   line-height: 1.3rem; }
 
+.p {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
 #aparecido1 {
-  position: absolute;
   width: 100%;
   height: 100%;
+  max-height: 100%;
+  min-height: 100%;
   display: none;
   visibility: collapse;
   -webkit-animation-name: mymove;
@@ -198,7 +207,6 @@ p {
     opacity: 1; } }
 
 #aparecido2 {
-  position: absolute;
   width: 100%;
   height: 100%;
   display: none;
@@ -210,33 +218,38 @@ p {
   animation-name: mymove;
   animation-duration: 1s; }
   #aparecido2.boton2 {
-    position: absolute;
     display: inline-block;
     visibility: visible; }
 
 .background-afro {
-  background-color: white;
+  background-color: #ffffffe6;
   position: absolute;
   width: 80%;
   height: 100%;
   left: 20%; }
 
+.background-afro-svg {
+  background-image: url(svg/back-afro.svg); }
+
 .video-afro {
   display: block;
-  margin: 40% 0%; }
+  margin: 40% 0%;
+  border-radius: 10px; }
 
 .p-video {
+  font-size: 18px;
+  font-weight: 400;
   padding-left: 10%;
   padding-right: 10%; }
 
 .mt-6 {
-  margin-top: 5%; }
+  margin: 5% 0; }
 
 .cerrar {
   position: relative;
   line-height: 3.2rem;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: blue;
   top: 5%;
   left: 25%;
@@ -245,10 +258,23 @@ p {
   background: white;
   border-radius: 50%; }
 
+.aceptar {
+  display: inline-block;
+  line-height: 3.5rem;
+  font-size: 1.5rem;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background: #FF7700;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 3px 6px #FF7700;
+  box-shadow: 0px 3px 6px #FF7700; }
+
 .scrollbar {
-  height: auto;
-  overflow-y: scroll;
-  margin-bottom: 10%; }
+  padding-left: 40px;
+  padding-right: 10px;
+  overflow: auto;
+  border-left: 1px solid gray; }
 
 /* mobile*/
 .social-icons {
