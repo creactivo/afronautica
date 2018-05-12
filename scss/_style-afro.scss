@@ -59,11 +59,22 @@ p{
 }
 
 .background-afro{
-	background-color:#ffffffe6;
+	/*background-color:#ffffffe6;
 	position:absolute;
 	width:80%;
 	height:100%;
-	left:20%;
+	left:20%;*/
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 90%;
+    min-height: 35rem;
+    height: 100%;
+    background-color: fade-out($white, 0.2);
+    transform: skewX(-10deg);
+    transform-origin: bottom left;
 }
 .background-afro-svg{
 	background-image: url(svg/back-afro.svg);
