@@ -1,4 +1,33 @@
-.aparecido1 {
+/*body{
+  overflow-y: hidden;
+}
+p{
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+.aparecido{
+  position: absolute;
   width: 100%;
   height: auto;
-  padding: 10%; }
+  margin: 0 -15px;
+  background-color: white;
+  
+}*/
+.aparecido2{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: none;
+  visibility: collapse;
+  
+}/*
+.contenedor-datos{
+  margin-top: 5%;
+}
+
+.scrollbar{
+    overflow-y: scroll;
+
+}
+*/

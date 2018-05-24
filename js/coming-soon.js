@@ -1,3 +1,8 @@
+var $target1 = $('#aparecido1,#aparecido2');
+var $class1 = $('#boton-cerrar1,#boton-cerrar2');
+
+
+
 (function(){
 	"use strict"; // Start of use strict
 
@@ -8,23 +13,29 @@
   }, {
     posterType: 'jpg'
   })
-})(jQuery)
+})(jQuery);
 
-let demo = function(){
+// let demo = function(){
 	
-	if($("#flag").val() == 0){
-            $("#flag").val(1)    
-        }else{
-            $("#flag").val(0)
-        }
+// 	if($("#flag").val() == 0){
+//             $("#flag").val(1)    
+//         }else{
+//             $("#flag").val(0)
+//         }
         
-        if($("#flag").val()==1){
-            $(".aparecido").show(3000);
-        }else{
-             $(".aparecido").hide(3000);
-        }
-}
+//         if($("#flag").val()==1){
+//             $(".aparecido").show(2000);
+//         }else{
+//              $(".aparecido").hide(2000);
+//         }
+// };
 
+
+// function mostrar(){
+//     console.log('jnjn')
+// var section = document.getElementById('aparecido2');
+//     section.style.display = 'block';
+// }
 /*if($("#flag").val() == 0){
             $("#flag").val(1)    
         }else{
@@ -36,3 +47,12 @@ let demo = function(){
         }else{
             $("#id_tope").show(1500);
         }*/
+
+$('#boton-inferiores').on('click','a',function(){
+    $target1.removeClass().addClass($(this).attr('id'));
+    console.log($(this).attr('id'));
+});
+
+$($class1).on('click',function(){
+    $target1.removeClass();
+});
