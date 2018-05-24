@@ -1,4 +1,5 @@
 var $target1 = $('#aparecido1,#aparecido2');
+var $class1 = $('#boton-cerrar1,#boton-cerrar2');
 
 
 
@@ -50,4 +51,8 @@ var $target1 = $('#aparecido1,#aparecido2');
 $('#boton-inferiores').on('click','a',function(){
     $target1.removeClass().addClass($(this).attr('id'));
     console.log($(this).attr('id'));
+});
+
+$($class1).on('click',function(){
+    $target1.removeClass();
 });
