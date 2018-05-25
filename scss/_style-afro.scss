@@ -6,12 +6,11 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 }
 p{
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 1.3rem;
 }
 .p{
-	margin-top:20px;
-	margin-bottom:10px;
+	
 }
 #aparecido1{
   position:fixed;
@@ -74,8 +73,7 @@ p{
 	background-image: url(svg/back-afro.svg);
 }
 .video-afro{
-	display:block;
-	margin: 40% 0%;
+	display:block;;
 	border-radius: 10px;
 }
 .p-video{
@@ -84,9 +82,22 @@ p{
 	padding-left:10%;
 	padding-right:10%;
 }
+//Laout afronautica
 .mt-6{
-	margin:5% 0;
+	margin-top:10%;
 }
+.plr-3{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+
+.table tr:nth-child(2){
+	background-color:red;
+	margin:10px;
+    border-radius: 50px;
+}
+//#fin Laout afronautica
 .btn-car-compras{
     font-family: 'Ubuntu', sans-serif;
     line-height: 2.5rem;
@@ -135,10 +146,6 @@ p{
 	background:#FF7700;
 	border-radius:50%;
 	box-shadow: 0px 3px 6px #FF7700;
-}
-.scrollbar{
-	overflow: scroll;
-	border-left:1px solid gray;
 }
 .menu{
 	margin-top: 32px;
