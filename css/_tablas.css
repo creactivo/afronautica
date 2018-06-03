@@ -8,7 +8,10 @@
 .container-afro td {
   font-weight: normal;
   font-size: 1em;
-  border-radius: 50px; }
+  border-radius: 50px;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+  -moz-box-shadow: 0 2px 2px -2px #0E1119;
+  box-shadow: 0 2px 2px -2px #0E1119; }
 
 .container-afro {
   text-align: left;
@@ -24,15 +27,12 @@
 
 /* Background-color of the odd rows */
 .container-afro tr:nth-child(odd) {
-  background-color: #fff;
-  text-align: center; }
+  background-color: #fff; }
 
 /* Background-color of the even rows */
 .container-afro tr:nth-child(even) {
   background-color: #358494;
-  color: #fff;
-  margin: 2px;
-  text-align: center; }
+  color: #fff; }
 
 .container-afro th {
   background-color: transparent;
@@ -40,7 +40,28 @@
   text-align: center; }
 
 .container-afro td:first-child {
-  color: #fd7e14; }
+  color: #FB667A; }
+
+.container-afro td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  -webkit-box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  -webkit-transform: translate3d(6px, -6px, 0);
+  transform: translate3d(6px, -6px, 0);
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: line;
+  -o-transition-timing-function: line;
+  transition-timing-function: line; }
 
 @media (max-width: 800px) {
   .container-afro td:nth-child(4),

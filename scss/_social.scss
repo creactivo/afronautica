@@ -12,7 +12,7 @@
       margin-left: .5rem;
       margin-right: .5rem;
       display: inline-block;
-      > a {
+      .gran-icono {
         display: block;
         color: white;
         border: 1px solid #fff;
@@ -22,6 +22,11 @@
         line-height: 2.5rem;
         height: 2.5rem;
         width: 2.5rem;
+        &.yellow {
+        color: #000;
+        border: 1px solid #000;     
+}
+
       }
     }
   }
@@ -45,17 +50,22 @@
         &:last-child {
           margin-bottom: 0;
         }
-        > a {
+        .gran-icono {
           transition: all 0.2s ease-in-out;
           font-size: 1.5rem;
           line-height: 4rem;
           height: 4rem;
           width: 4rem;
           margin: 0px 30px;
+          &.yellow {
+          transition: all 0.2s ease-in-out;
+          color: #000;
+          border: 1px solid #000;
           &:hover {
-            background-color: $white;
-            color: $blue-afro;
-          }
+          background-color: $white;
+          color: $blue-afro;
+          }   
+    }
         }
       }
     }

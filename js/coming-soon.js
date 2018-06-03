@@ -1,10 +1,11 @@
 var $target1 = $('#aparecido1,#aparecido2');
 var $class1 = $('#boton-cerrar1,#boton-cerrar2');
-
+var $class2 = $('#boton1,#boton2');
+var $class3 = $('#boton-menu1,#logo,#boton-menu3,#boton1,#boton2,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
 
 
 (function(){
-	"use strict"; // Start of use strict
+  "use strict"; // Start of use strict
 
   // Vide - Video Background Settings
   $('body').vide({
@@ -15,19 +16,26 @@ var $class1 = $('#boton-cerrar1,#boton-cerrar2');
   })
 })(jQuery);
 
-//codigo para que funcione el parallax
 
 $('#boton-inferiores').on('click','a',function(){
     $target1.removeClass().addClass($(this).attr('id'));
-    console.log($(this).attr('id'));
+
 });
 
 $($class1).on('click',function(){
     $target1.removeClass();
 });
 
+$($class2).bind('click',function(){
+    $($class3).addClass('yellow');
+});
+$($class1).on('click',function(){
+    $class3.removeClass('yellow');
+});
+//codigo para que funcione el parallax
+
 $("#contenedor-paralax").mousemove(function(e) {
-  parallaxIt(e, ".slide-paralax", -100);
+  parallaxIt(e, ".slide-paralax", -50);
   parallaxIt(e, "img", -30);
 });
 
