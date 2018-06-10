@@ -35,14 +35,14 @@ p {
 .h1 {
   font-family: 'Coustard', serif;
   font-weight: 300;
-  font-size: 5vw;
+  font-size: 2vw;
   font-weight: 300;
   text-shadow: 0px 1px 2px rgba(53, 132, 148, 0.19); }
 
 .h2 {
   font-family: 'Coustard', serif;
   font-weight: 300;
-  font-size: 8vw;
+  font-size: 3vw;
   font-weight: 600;
   text-shadow: 0px 1px 2px rgba(53, 132, 148, 0.19); }
 
@@ -74,6 +74,9 @@ body {
   font-size: .8rem;
   text-align: center; }
 
+.btn-afro {
+  border-radius: 100px; }
+
 .btn-special {
   margin: 0 auto;
   display: block;
@@ -101,7 +104,7 @@ body {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: .25rem 1.5rem;
+  padding: .7rem 1.5rem;
   margin: .3rem 0;
   clear: both;
   font-weight: 400;
@@ -204,7 +207,6 @@ body {
 
 body {
   height: 100%;
-  overflow: hidden;
   font-weight: 300;
   color: #001A3F;
   font-family: 'Ubuntu', sans-serif; }
@@ -230,8 +232,30 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2.boton2 {
-    color: blue;
-    border-color: blue;
+    position: fixed;
+    left: 0%; }
+
+#aparecido3 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido3.boton3 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido4 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido4.boton4 {
     position: fixed;
     left: 0%; }
 
@@ -293,9 +317,12 @@ body {
 .img-servicio-afro {
   border-radius: 10px; }
 
-.scroll-afro {
-  height: 100vw;
-  overflow: auto; }
+.card-afro {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0); }
+
+.list-group-item-afro {
+  background-color: rgba(255, 255, 255, 0); }
 
 .li-afro {
   font-size: .9vw; }
@@ -431,7 +458,7 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
-.slide-paralax {
+#slide-paralax1, #slide-paralax2 {
   display: block;
   position: absolute;
   background-size: contain;

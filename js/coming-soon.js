@@ -1,7 +1,8 @@
-var $target1 = $('#aparecido1,#aparecido2');
+var $target1 = $('#aparecido1,#aparecido2,#aparecido3,#aparecido4');
 var $class1 = $('#boton-cerrar1,#boton-cerrar2');
-var $class2 = $('#boton1,#boton2');
-var $class3 = $('#boton-menu1,#logo,#boton-menu3,#boton1,#boton2,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
+var $class2 = $('#boton1,#boton2,#boton3,#boton4');
+var $class3 = $('#boton-menu1,#logo,#boton-menu3,#boton1,#boton2,#boton3,#boton4,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
+var $class4 = $('#slide-paralax1,#slide-paralax2');
 
 
 (function(){
@@ -35,7 +36,7 @@ $($class1).on('click',function(){
 //codigo para que funcione el parallax
 
 $("#contenedor-paralax").mousemove(function(e) {
-  parallaxIt(e, ".slide-paralax", -50);
+  parallaxIt(e, "#slide-paralax1, #slide-paralax2", -50);
   parallaxIt(e, "img", -30);
 });
 

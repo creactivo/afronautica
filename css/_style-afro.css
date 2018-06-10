@@ -1,6 +1,5 @@
 body {
   height: 100%;
-  overflow: hidden;
   font-weight: 300;
   color: #1C4288;
   font-family: 'Ubuntu', sans-serif; }
@@ -102,6 +101,7 @@ p {
   background-color: red;
   margin: 10px;
   border-radius: 50px; }
+  
 
 .btn-car-compras {
   font-family: 'Ubuntu', sans-serif;
