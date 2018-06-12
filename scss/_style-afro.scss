@@ -4,7 +4,22 @@ body{
     color: #001A3F;
     font-family: 'Ubuntu', sans-serif;
 }
-
+.badge-car{
+  display:block;
+  position:adsolute;
+  top:30%;
+}
+#carrodeCompras{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  bottom:110%;
+  transition: all 0.4s ease;
+  &.animate{
+    position:fixed;
+    bottom:0%;
+    }
+}
 
 #aparecido1{
   position:fixed;
@@ -88,6 +103,16 @@ body{
     -ms-transform-origin: bottom left;
     transform-origin: bottom left;
 }
+.background-afro-carrito{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    min-height: 35rem;
+    background-color: rgba(255, 255, 255, 1);
+}
 .background-afro-svg{
     background-image: url(svg/back-afro.svg);
 }
@@ -126,7 +151,8 @@ body{
     border: 1px solid rgba(255, 255, 255, 0);
 }
 .list-group-item-afro {
-    background-color: rgba(255, 255, 255, 0);
+  padding: 0.45vw 1.25rem;
+  background-color: rgba(255, 255, 255, 0);
 }
 .li-afro{
     font-size: .9vw;
@@ -250,7 +276,7 @@ body{
     color:#fff;
 }
 //parallax inicio
-#contenedor-paralax {
+#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4 {
   position: relative;
   width: 100%;
   //border: solid 1px red;
@@ -259,7 +285,7 @@ body{
   align-items: center;
 }
 
-#slide-paralax1, #slide-paralax2 {
+#slide-paralax1, #slide-paralax2, #slide-paralax3, #slide-paralax4{
   display: block;
   position: absolute;
   // background-image: url(../img/titulo-a.png);
