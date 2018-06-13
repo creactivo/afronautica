@@ -228,6 +228,16 @@ body {
     position: fixed;
     bottom: 0%; }
 
+.container-shopping {
+  padding: 5em; }
+
+.card-title-afro {
+  margin-bottom: 0px; }
+
+.img-item {
+  max-width: 70px;
+  padding: 0px; }
+
 #aparecido1 {
   position: fixed;
   width: 100%;
