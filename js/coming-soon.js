@@ -7,6 +7,15 @@ var $class5 = $('#carrodeCompras');
 var $containerParalax = $('#contenedor-paralax1,#contenedor-paralax2,#contenedor-paralax3,#contenedor-paralax4');
 var $paralaxSlide = $('#slide-paralax1,#slide-paralax2,#slide-paralax3,#slide-paralax4');
 
+var $contenedorParalax1 = $("#contenedor-paralax1");
+var $contenedorParalax2 = $("#contenedor-paralax2");
+var $contenedorParalax3 = $("#contenedor-paralax3");
+var $contenedorParalax4 = $("#contenedor-paralax4");
+var $paralaxSlide1 = $('#slide-paralax1');
+var $paralaxSlide2 = $('#slide-paralax2');
+var $paralaxSlide3 = $('#slide-paralax3');
+var $paralaxSlide4 = $('#slide-paralax4');
+
 
 
 (function(){
@@ -44,19 +53,74 @@ $($class1).on('click',function(){
     $class3.removeClass('yellow');
 });
 
-//codigo para que funcione el parallax
+//codigo para que funcione el parallax 1
 
-$($containerParalax).mousemove(function(e) {
-  parallaxIt(e, $paralaxSlide, -50);
+$($contenedorParalax1).mousemove(function(e) {
+  parallaxIt(e, $paralaxSlide1, -50);
   parallaxIt(e, "img", -30);
-});
+})
 
 function parallaxIt(e, target, movement) {
-  var $this = $($paralaxSlide);
-  var relX = e.pageX - $this.offset().left;
+  var $this = $($paralaxSlide1);
+  var relX = e.pageX - $this.offset().right;
   var relY = e.pageY - $this.offset().top;
 
   TweenMax.to(target, 1, {
+
+    x: (relX - $this.width() / 2) / $this.width() * movement,
+    y: (relY - $this.height() / 2) / $this.height() * movement
+  });
+}
+//codigo para que funcione el parallax 2
+
+$($contenedorParalax2).mousemove(function(e) {
+  parallaxIt(e, $paralaxSlide2, -50);
+  parallaxIt(e, "img", -30);
+})
+
+function parallaxIt(e, target, movement) {
+  var $this = $($paralaxSlide2);
+  var relX = e.pageX - $this.offset().top;
+  var relY = e.pageY - $this.offset().top;
+
+  TweenMax.to(target, 1, {
+
+    x: (relX - $this.width() / 2) / $this.width() * movement,
+    y: (relY - $this.height() / 2) / $this.height() * movement
+  });
+}
+//codigo para que funcione el parallax 3
+
+$($contenedorParalax3).mousemove(function(e) {
+  parallaxIt(e, $paralaxSlide3, -50);
+  parallaxIt(e, "img", -30);
+})
+
+function parallaxIt(e, target, movement) {
+  var $this = $($paralaxSlide3);
+  var relX = e.pageX - $this.offset().top;
+  var relY = e.pageY - $this.offset().top;
+
+  TweenMax.to(target, 1, {
+
+    x: (relX - $this.width() / 2) / $this.width() * movement,
+    y: (relY - $this.height() / 2) / $this.height() * movement
+  });
+}
+//codigo para que funcione el parallax 4
+
+$($contenedorParalax4).mousemove(function(e) {
+  parallaxIt(e, $paralaxSlide4, -50);
+  parallaxIt(e, "img", -30);
+})
+
+function parallaxIt(e, target, movement) {
+  var $this = $($paralaxSlide4);
+  var relX = e.pageX - $this.offset().top;
+  var relY = e.pageY - $this.offset().top;
+
+  TweenMax.to(target, 1, {
+
     x: (relX - $this.width() / 2) / $this.width() * movement,
     y: (relY - $this.height() / 2) / $this.height() * movement
   });

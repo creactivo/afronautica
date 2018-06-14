@@ -377,6 +377,7 @@
   </div>
   </div>
 </section>
+
 <section class="carrodecompras" id="carrodeCompras">
   <div class="container-fluid h-100">
     <div class="row h-100">
@@ -389,31 +390,30 @@
       
 <!-- inicio de la tarjeta -->
 
-  <div class="card">
-  <div class="card-body">
-   
-    
-    <div class="d-flex flex-row bd-highlight">
+  <table class="table table-hover table-bordered text-center">
+  <thead>
+    <tr>
+      <th scope="col-md-2">#</th>
+      <th scope="col-md-6">Storytelling</th>
+      <th scope="col-md-2">Starts the activity</th>
+      <th scope="col-md-2"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">
+        <img src="img/img-buceo-item.jpg" class="img-fluid rounded-circle img-carrito" alt="imagen de buceo"></th>
+      <td><h3>Buceo Mini curso</h3></td>
+      <td>8:00</td>
+      <td>
+        <div class="text-center cerrar" id="boton-cerrar-item">
+            <i class="fas fa-times"></i>
+        </div>
+</td>
+    </tr>
 
-  <div class="col-md-2  bd-highlight img-item"><img src="img/img-buceo-item.jpg" class="img-fluid rounded-circle" alt="imagen de buceo"></div>
-
-
-  <div class="col-md-6 bd-highlight my-auto h-100">
-    <h2 class="card-title card-title-afro">Buceo Mini curso</h2>
-  </div>
-  <div class="col-md-3 bd-highlight my-auto h-100">
-    <h2 class="card-title card-title-afro">$ 120.000</h2>
-  </div>
-
-  <div class="col-md-1 my-auto h-100">
-    <div class="text-center cerrar" id="boton-cerrar-item">
-                <i class="fas fa-times"></i>
-              </div></div>
-
-
-</div>
-  </div>
-</div>
+  </tbody>
+</table>
 
 
 <!-- fin de la tarjeta -->
@@ -426,7 +426,7 @@
     
     <div class="d-flex flex-row bd-highlight">
 
-  <div class="col-md-2  bd-highlight img-item"><img src="img/img-buceo-item.jpg" class="img-fluid rounded-circle" alt="imagen de buceo"></div>
+  <div class="col-md-2  bd-highlight img-item"></div>
 
 
   <div class="col-md-6 bd-highlight my-auto h-100">
@@ -625,30 +625,34 @@
       <div class="modal-body">
        <div class="container">
          <div class="row">
-    <div class="col-12 mt-3" >
-           <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus sint odio distinctio itaque quas corporis dolores accusantium, accusamus sapiente necessitatibus nemo voluptatum dolor fugiat optio et! Reiciendis, dolorum rerum dolor?
-           </p></div>
+          <div class="col-12 mt-3 text-center" >
+                 <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus sint odio distinctio itaque quas corporis dolores accusantium, accusamus sapiente necessitatibus nemo voluptatum dolor fugiat optio et! Reiciendis, dolorum rerum dolor?
+                 </p>
+          </div>
 
            <div class="col-12">
-             <table class="table">
+
+<table class="table table-hover table-bordered text-center">
+  <caption>Itinerario de salida en este servicio</caption>
   <thead>
     <tr>
       <th scope="col">#</th>
       <th scope="col">Storytelling</th>
       <th scope="col">Starts the activity</th>
-      
+      <th scope="col">Selec</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="table-info">
       <th scope="row">1</th>
       <td>7:30</td>
       <td>8:00</td>
-      <td><div class="custom-control custom-radio">
-  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-  <label class="custom-control-label" for="customRadio1"></label>
-</div>
+      <td>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio1"></label>
+        </div>
 </td>
     </tr>
     <tr>
@@ -656,33 +660,34 @@
       <td>10:30</td>
       <td>11:00</td>
       <td>
-        
         <div class="custom-control custom-radio">
-  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-  <label class="custom-control-label" for="customRadio2"></label>
-</div></td>
+          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio2"></label>
+        </div>
+</td>
     </tr>
-    <tr>
-      <th scope="row">3</th>
+    <tr class="table-info">
+      <th scope="row">2</th>
       <td>13:30</td>
       <td>14:00</td>
       <td>
-
         <div class="custom-control custom-radio">
-  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-  <label class="custom-control-label" for="customRadio3"></label>
-</div>
+          <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio3"></label>
+        </div>
 </td>
     </tr>
   </tbody>
 </table>
+
            </div>
          </div>
        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        
+        <button type="button" class="btn btn-lg btn-outline-danger btn-afro" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-lg btn-outline-primary btn-afro">Aceptar</button>
       </div>
     </div>
   </div>

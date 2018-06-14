@@ -310,7 +310,7 @@ body {
   left: 0;
   width: 100%;
   min-height: 35rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.93);
   -webkit-transform: skewX(-10deg);
   -ms-transform: skewX(-10deg);
   transform: skewX(-10deg);
@@ -365,10 +365,19 @@ body {
 .li-afro {
   font-size: .9vw; }
 
-.table tr:nth-child(2) {
-  background-color: red;
-  margin: 10px;
-  border-radius: 50px; }
+.img-carrito {
+  max-width: 70px; }
+
+.btn-outline-warning {
+  color: #ff8122;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ff8122; }
+
+.btn-outline-warning:hover {
+  color: #212529;
+  background-color: #ff8122;
+  border-color: #ff8122; }
 
 .btn-car-compras {
   font-family: 'Ubuntu', sans-serif;
