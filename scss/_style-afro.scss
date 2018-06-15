@@ -4,6 +4,13 @@ body{
     color: #001A3F;
     font-family: 'Ubuntu', sans-serif;
 }
+
+#menu-afro{
+  &.blue{
+    color: #000;
+    border: 1px solid #000;
+  }
+}
 .badge-car{
   display:block;
   position:adsolute;
@@ -18,6 +25,8 @@ body{
   &.animate{
     position:fixed;
     bottom:0%;
+    position: absolute;
+    z-index: 32;
     }
 }
 .container-shopping{
@@ -166,10 +175,7 @@ body{
 .li-afro{
     font-size: .9vw;
 }
-//tabla-carrito
-.img-carrito{
-  max-width:70px;
-}
+
 .btn-outline-warning {
     color: #ff8122;
     background-color: transparent;
@@ -183,6 +189,26 @@ body{
 }
 
 //#fin Layout afronautica
+
+
+
+// carrito
+//tabla-carrito
+.img-carrito{
+  max-width:40px;
+}
+
+.table-bordered td, .table-bordered th {
+    border-bottom: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: center;
+}
+.table p{
+  line-height:1.5rem;
+}
+
 .btn-car-compras{
     font-family: 'Ubuntu', sans-serif;
     line-height: 2.5rem;
@@ -192,7 +218,7 @@ body{
     margin-left:1%;
     border-radius: 50%;
     border:1px solid #fff;
-    &.yellow {
+    &.blue {
           transition: all 0.2s ease-in-out;
           color: #000;
           border: 1px solid #000;
@@ -211,7 +237,7 @@ body{
     margin-right:1%;
     border-radius: 50%;
     border:1px solid #fff;
-    &.yellow {
+    &.blue {
           transition: all 0.2s ease-in-out;
           color: #000;
           border: 1px solid #000;
@@ -249,6 +275,19 @@ body{
     cursor: pointer;
     width: 50px;
     height: 50px;
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid #1C4288;
+    border-radius: 50%;
+    box-shadow: 0px 3px 6px hsla(219, 66%, 32%, 0.41);
+}
+.cerrar-sm{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #1C4288;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
     margin: 0 auto;
     background: transparent;
     border: 1px solid #1C4288;

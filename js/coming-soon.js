@@ -4,6 +4,8 @@ var $class2 = $('#boton1,#boton2,#boton3,#boton4');
 var $class3 = $('#boton-menu1,#logo,#boton-menu3,#boton1,#boton2,#boton3,#boton4,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
 var $class4 = $('#boton-menu1');
 var $class5 = $('#carrodeCompras');
+// var $class6 = $('#boton-menu2');
+// var $class7 = $('#boton-menu1,#logo,#boton-menu3,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
 var $containerParalax = $('#contenedor-paralax1,#contenedor-paralax2,#contenedor-paralax3,#contenedor-paralax4');
 var $paralaxSlide = $('#slide-paralax1,#slide-paralax2,#slide-paralax3,#slide-paralax4');
 
@@ -30,7 +32,8 @@ var $paralaxSlide4 = $('#slide-paralax4');
   })
 })(jQuery);
 
-
+ // Agrega color inverso animacion-
+ //a los contenedores que aprecen horizontalmente
 $('#boton-inferiores').on('click','a',function(){
     $target1.removeClass().addClass($(this).attr('id'));
 
@@ -38,20 +41,28 @@ $('#boton-inferiores').on('click','a',function(){
 
 $($class4).on('click',function(){
     $class5.toggleClass('animate');
-
 });
+ // Elimina las animacion de los
+ //contenedores que aprecen horizontalmente
 $($class1).on('click',function(){
     $target1.removeClass();
 });
-
+// al precionar los botones inferiores
+// Agrega color a los botones de el layout colocandolos azules
 $($class2).bind('click',function(){
-    $($class3).addClass('yellow');
+    $($class3).addClass('blue');
 });
-
-
+// al precionar los botones inferiores
+// Elimina color a los botones de el layout colocandolos azules
 $($class1).on('click',function(){
-    $class3.removeClass('yellow');
+    $class3.removeClass('blue');
 });
+
+// Agrega si no tienen color a los botones de el layout colocandolos azules
+$($class4).bind('click',function(){
+    $($class3).toggleClass('blue');
+});
+
 
 //codigo para que funcione el parallax 1
 
