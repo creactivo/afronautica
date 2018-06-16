@@ -109,6 +109,7 @@ body {
   clear: both;
   font-weight: 400;
   color: #fff;
+  background-color: #ffffff40;
   text-align: inherit;
   white-space: nowrap;
   border: 2px solid rgba(255, 255, 255, 0.71);
@@ -211,10 +212,6 @@ body {
   color: #001A3F;
   font-family: 'Ubuntu', sans-serif; }
 
-#menu-afro.blue {
-  color: #000;
-  border: 1px solid #000; }
-
 .badge-car {
   display: block;
   position: adsolute;
@@ -232,7 +229,7 @@ body {
     position: fixed;
     bottom: 0%;
     position: absolute;
-    z-index: 32; }
+    z-index: 35; }
 
 .container-shopping {
   padding: 5em; }
@@ -292,6 +289,198 @@ body {
     position: fixed;
     left: 0%; }
 
+#aparecido1b {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido1b.boton5 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido2b {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido2b.boton6 {
+    position: fixed;
+    left: 0%; }
+
+#aparecido3b {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido3b.boton7 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido4b {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido4b.boton8 {
+    position: fixed;
+    left: 0%; }
+
+#aparecido1c {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido1c.boton9 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido2c {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido2c.boton10 {
+    position: fixed;
+    left: 0%; }
+
+#aparecido3c {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido3c.boton11 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido4c {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido4c.boton12 {
+    position: fixed;
+    left: 0%; }
+
+#aparecido1d {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido1d.boton13 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido2d {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido2d.boton14 {
+    position: fixed;
+    left: 0%; }
+
+#aparecido3d {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido3d.boton15 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido4d {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido4d.boton16 {
+    position: fixed;
+    left: 0%; }
+
+#aparecido1e {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido1e.boton17 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido2e {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido2e.boton18 {
+    position: fixed;
+    left: 0%; }
+
+#aparecido3e {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 110%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido3e.boton19 {
+    position: fixed;
+    right: 0%; }
+
+#aparecido4e {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 120%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  #aparecido4e.boton20 {
+    position: fixed;
+    left: 0%; }
+
 .background-afro1 {
   position: absolute;
   top: 0;
@@ -317,12 +506,12 @@ body {
   width: 100%;
   min-height: 35rem;
   background-color: rgba(255, 255, 255, 0.93);
-  -webkit-transform: skewX(-10deg);
-  -ms-transform: skewX(-10deg);
-  transform: skewX(-10deg);
-  -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left; }
+  -webkit-transform: skewX(10deg);
+  -ms-transform: skewX(10deg);
+  transform: skewX(10deg);
+  -webkit-transform-origin: top right;
+  -ms-transform-origin: top right;
+  transform-origin: top right; }
 
 .background-afro-carrito {
   position: absolute;
@@ -404,6 +593,9 @@ body {
   margin-left: 1%;
   border-radius: 50%;
   border: 1px solid #fff; }
+  .btn-car-compras:active {
+    border-color: #000;
+    color: #000; }
   .btn-car-compras.blue {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -413,6 +605,9 @@ body {
     .btn-car-compras.blue:hover {
       background-color: #fff;
       color: #06173f; }
+    .btn-car-compras.blue:active, .btn-car-compras.blue:focus {
+      border-color: #000;
+      color: #000; }
 
 .btn-haburger-menu {
   font-family: 'Ubuntu', sans-serif;
@@ -522,7 +717,7 @@ body {
   fill: #fff;
   color: #fff; }
 
-#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4 {
+#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4, #contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b, #contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c, #contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c, #contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d, #contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
   position: relative;
   width: 100%;
   display: -webkit-box;
@@ -535,7 +730,7 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
-#slide-paralax1, #slide-paralax2, #slide-paralax3, #slide-paralax4 {
+#slide-paralax1, #slide-paralax2, #slide-paralax3, #slide-paralax4, #slide-paralax1b, #slide-paralax2b, #slide-paralax3b, #slide-paralax4b, #slide-paralax1c, #slide-paralax2c, #slide-paralax3c, #slide-paralax4c, #slide-paralax1d, #slide-paralax2d, #slide-paralax3d, #slide-paralax4d, #slide-paralax1e, #slide-paralax2e, #slide-paralax3e, #slide-paralax4e {
   display: block;
   position: absolute;
   background-size: contain;
@@ -607,7 +802,15 @@ body {
             border: 1px solid #000; }
             .social-icons ul > li .gran-icono.blue:hover {
               background-color: #fff;
-              color: #06173f; } }
+              color: #06173f; }
+          .social-icons ul > li .gran-icono:hover {
+            font-size: 1.7rem;
+            line-height: 4.5rem;
+            color: #000;
+            border: 1px solid #000;
+            background-color: #fff;
+            height: 4.5rem;
+            width: 4.5rem; } }
 
 .btn-primary {
   background-color: #C33D46;
