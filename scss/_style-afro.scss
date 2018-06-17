@@ -39,7 +39,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton1{
+    &.boton1a{
     position:fixed;
     right:0%;
     }
@@ -52,7 +52,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton2{
+    &.boton2a{
     position:fixed;
     left:0%;
     }
@@ -65,7 +65,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton3{
+    &.boton3a{
     position:fixed;
     right:0%;
     }
@@ -78,13 +78,25 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton4{
+    &.boton4a{
     position:fixed;
     left:0%;
     }
 }
 
+#aparecido5{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  right:110%;
+  transition: all 1s ease;
+    &.boton5a{
+    position:fixed;
+    right:0%;
+    }
 
+  
+}
 #aparecido1b{
   position:fixed;
   width: 100%;
@@ -134,7 +146,8 @@ body{
     position:fixed;
     left:0%;
     }
-}#aparecido1c{
+}
+#aparecido1c{
   position:fixed;
   width: 100%;
   height: 100%;
@@ -533,12 +546,12 @@ body{
     margin-bottom: 2px;
     padding:2px 20px;
 }
-#logo{
+.logo{
     fill:#fff;
     color:#fff;
 }
 //parallax inicio
-#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4,#contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b,#contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c,#contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c,#contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d,#contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
+#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4, #contenedor-paralax5,#contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b,#contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c,#contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c,#contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d,#contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
   position: relative;
   width: 100%;
   //border: solid 1px red;
@@ -547,7 +560,7 @@ body{
   align-items: center;
 }
 
-#slide-paralax1, #slide-paralax2, #slide-paralax3, #slide-paralax4,#slide-paralax1b, #slide-paralax2b, #slide-paralax3b, #slide-paralax4b,#slide-paralax1c, #slide-paralax2c, #slide-paralax3c, #slide-paralax4c,#slide-paralax1d, #slide-paralax2d, #slide-paralax3d, #slide-paralax4d,#slide-paralax1e, #slide-paralax2e, #slide-paralax3e, #slide-paralax4e{
+#slide-paralax1, #slide-paralax2, #slide-paralax3, #slide-paralax4, #slide-paralax5, #slide-paralax1b, #slide-paralax2b, #slide-paralax3b, #slide-paralax4b,#slide-paralax1c, #slide-paralax2c, #slide-paralax3c, #slide-paralax4c,#slide-paralax1d, #slide-paralax2d, #slide-paralax3d, #slide-paralax4d,#slide-paralax1e, #slide-paralax2e, #slide-paralax3e, #slide-paralax4e{
   display: block;
   position: absolute;
   // background-image: url(../img/titulo-a.png);
