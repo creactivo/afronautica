@@ -19,9 +19,6 @@ h2 {
 h3 {
   font-size: 1.0vw; }
 
-h4 {
-  font-size: .7vw; }
-
 h5 {
   font-size: 5vw; }
 
@@ -309,7 +306,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1b.boton5 {
+  #aparecido1b.boton1b {
     position: fixed;
     right: 0%; }
 
@@ -321,7 +318,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2b.boton6 {
+  #aparecido2b.boton2b {
     position: fixed;
     left: 0%; }
 
@@ -333,7 +330,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3b.boton7 {
+  #aparecido3b.boton3b {
     position: fixed;
     right: 0%; }
 
@@ -345,7 +342,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4b.boton8 {
+  #aparecido4b.boton4b {
     position: fixed;
     left: 0%; }
 
@@ -357,7 +354,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1c.boton9 {
+  #aparecido1c.boton1c {
     position: fixed;
     right: 0%; }
 
@@ -369,7 +366,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2c.boton10 {
+  #aparecido2c.boton2c {
     position: fixed;
     left: 0%; }
 
@@ -381,7 +378,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3c.boton11 {
+  #aparecido3c.boton3c {
     position: fixed;
     right: 0%; }
 
@@ -393,7 +390,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4c.boton12 {
+  #aparecido4c.boton4c {
     position: fixed;
     left: 0%; }
 
@@ -405,7 +402,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1d.boton13 {
+  #aparecido1d.boton1d {
     position: fixed;
     right: 0%; }
 
@@ -417,7 +414,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2d.boton14 {
+  #aparecido2d.boton2d {
     position: fixed;
     left: 0%; }
 
@@ -429,7 +426,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3d.boton15 {
+  #aparecido3d.boton3d {
     position: fixed;
     right: 0%; }
 
@@ -441,7 +438,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4d.boton16 {
+  #aparecido4d.boton4d {
     position: fixed;
     left: 0%; }
 
@@ -453,7 +450,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1e.boton17 {
+  #aparecido1e.boton1e {
     position: fixed;
     right: 0%; }
 
@@ -465,7 +462,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2e.boton18 {
+  #aparecido2e.boton2e {
     position: fixed;
     left: 0%; }
 
@@ -477,7 +474,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3e.boton19 {
+  #aparecido3e.boton3e {
     position: fixed;
     right: 0%; }
 
@@ -489,7 +486,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4e.boton20 {
+  #aparecido4e.boton4e {
     position: fixed;
     left: 0%; }
 

@@ -43,8 +43,6 @@ body{
     position:fixed;
     right:0%;
     }
-
-  
 }
 #aparecido2{
   position:fixed;
@@ -103,7 +101,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton5{
+    &.boton1b{
     position:fixed;
     right:0%;
     }
@@ -116,7 +114,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton6{
+    &.boton2b{
     position:fixed;
     left:0%;
     }
@@ -129,7 +127,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton7{
+    &.boton3b{
     position:fixed;
     right:0%;
     }
@@ -142,7 +140,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton8{
+    &.boton4b{
     position:fixed;
     left:0%;
     }
@@ -153,7 +151,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton9{
+    &.boton1c{
     position:fixed;
     right:0%;
     }
@@ -166,7 +164,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton10{
+    &.boton2c{
     position:fixed;
     left:0%;
     }
@@ -179,7 +177,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton11{
+    &.boton3c{
     position:fixed;
     right:0%;
     }
@@ -192,7 +190,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton12{
+    &.boton4c{
     position:fixed;
     left:0%;
     }
@@ -202,7 +200,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton13{
+    &.boton1d{
     position:fixed;
     right:0%;
     }
@@ -215,7 +213,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton14{
+    &.boton2d{
     position:fixed;
     left:0%;
     }
@@ -228,7 +226,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton15{
+    &.boton3d{
     position:fixed;
     right:0%;
     }
@@ -241,17 +239,18 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton16{
+    &.boton4d{
     position:fixed;
     left:0%;
     }
-}#aparecido1e{
+}
+#aparecido1e{
   position:fixed;
   width: 100%;
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton17{
+    &.boton1e{
     position:fixed;
     right:0%;
     }
@@ -264,7 +263,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton18{
+    &.boton2e{
     position:fixed;
     left:0%;
     }
@@ -277,7 +276,7 @@ body{
   height: 100%;
   right:110%;
   transition: all 1s ease;
-    &.boton19{
+    &.boton3e{
     position:fixed;
     right:0%;
     }
@@ -290,7 +289,7 @@ body{
   height: 100%;
   left:120%;
   transition: all 1s ease;
-    &.boton20{
+    &.boton4e{
     position:fixed;
     left:0%;
     }
@@ -453,7 +452,7 @@ body{
     margin-right:1%;
     border-radius: 50%;
     border:1px solid #fff;
-    &.blue {
+    &.blue{
           transition: all 0.2s ease-in-out;
           color: #000;
           border: 1px solid #000;

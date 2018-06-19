@@ -2,13 +2,12 @@ var $target1 = $('#aparecido1,#aparecido2,#aparecido3,#aparecido4,#aparecido5,#a
 var $target2 = $('#boton-inferiores1,#boton-inferiores2,#boton-inferiores3,#boton-inferiores4,#boton-inferiores5')
 var $classbtcerrar1 = $('#boton-cerrar1,#boton-cerrar2');
 
-var $class2a = $('#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton5,#boton6,#boton7,#boton8,#boton9,#boton10,#boton11,#boton12,#boton13,#boton14,#boton15,#boton16,#boton17,#boton18,#boton19,#boton20');
-var $class3 = $('#boton-menu1,#boton-menu3,#logo,#boton-menu3,#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton5,#boton6,#boton7,#boton8,#boton9,#boton10,#boton11,#boton12,#boton13,#boton14,#boton15,#boton16,#boton17,#boton18,#boton19,#boton20,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
-
-
+var $class2a = $('#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton1b,#boton2b,#boton3b,#boton4b,#boton5b,#boton1c,#boton2c,#boton3c,#boton4c,#boton5c,#boton1d,#boton2d,#boton3d,#boton4d,#boton5d,#boton1e,#boton2e,#boton3e,#boton4e,#boton5e');
+var $class3 = $('#boton-menu1,#boton-menu3,#logo,#boton-menu3,#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton1b,#boton2b,#boton3b,#boton4b,#boton5b,#boton1c,#boton2c,#boton3c,#boton4c,#boton5c,#boton1d,#boton2d,#boton3d,#boton4d,#boton5d,#boton1e,#boton2e,#boton3e,#boton4e,#boton5e,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
 
 var $class4 = $('#boton-menu1');
 var $class4b = $('#boton-menu3');
+var $class4c = $('#carrodeCompras,#btn-haburger-menu');
 var $class5 = $('#carrodeCompras');
 var $class5b = $('#btn-haburger-menu');
 var $class5c = $('#navbarHeader');
@@ -130,114 +129,136 @@ $($target2).on('click','a',function(){
 
 });
 
-/*if (($class2 != ('click')){
-  function(){
-    $class6.addClass('blue');
-    document.write("holla"); }
-}*/
-
 $($class4).on('click',function(){
    var x = document.querySelector(".animate");
-   var a = document.querySelector(".boton1a");
-   var b = document.querySelector(".boton2a");
-   var c = document.querySelector(".boton3a");
-   var d = document.querySelector(".boton4a");
-   var e = document.querySelector(".boton5a");
-   var f = document.querySelector(".boton5");
-   var g = document.querySelector(".boton6");
-   var h = document.querySelector(".boton9");
-   var i = document.querySelector(".boton10");
-   var j = document.querySelector(".boton13");
-   var k = document.querySelector(".boton14");
-   var l = document.querySelector(".boton17");
- 
+
+   var a = document.querySelector('.boton1a');
+   var b = document.querySelector('.boton2a');
+   var c = document.querySelector('.boton3a');
+   var d = document.querySelector('.boton4a');
+   var e = document.querySelector('.boton5a');
+   var f = document.querySelector('.boton1b');
+   var g = document.querySelector('.boton2b');
+   var h = document.querySelector('.boton1c');
+   var i = document.querySelector('.boton2c');
+   var j = document.querySelector('.boton1d');
+   var k = document.querySelector('.boton2d');
+   var l = document.querySelector('.boton1e');
+
+
    if(x == null){
-    $("#boton-menu1").addClass('blue')
+      $("#boton-menu1").addClass('blue')
     }
     else if(a != null){
       $("#boton-menu1").addClass('blue')
-    }else if(b != null){
+    }
+    else if(b != null){
       $("#boton-menu1").addClass('blue')
-    }else if(c != null){
+    }
+    else if(c != null){
       $("#boton-menu1").addClass('blue')
-    }else if(d != null){
+    }
+    else if(d != null){
       $("#boton-menu1").addClass('blue')
-    }else if(e != null){
+    }
+    else if(e != null){
       $("#boton-menu1").addClass('blue')
-    }else if(f != null){
+    }
+    else if(f != null){
       $("#boton-menu1").addClass('blue')
-    }else if(g != null){
+    }
+    else if(g != null){
       $("#boton-menu1").addClass('blue')
-    }else if(h != null){
+    }
+    else if(h != null){
       $("#boton-menu1").addClass('blue')
-    }else if(i != null){
+    }
+    else if(i != null){
       $("#boton-menu1").addClass('blue')
-    }else if(j != null){
+    }
+    else if(j != null){
       $("#boton-menu1").addClass('blue')
-    }else if(k != null){
+    }
+    else if(k != null){
       $("#boton-menu1").addClass('blue')
-    }else if(l != null){
+    }
+    else if(l != null){
       $("#boton-menu1").addClass('blue')
     }
     else{
       $("#boton-menu1").removeClass('blue')
     }
-    
-    
-
 
     $class5.toggleClass('animate');
 });
 
 
 $($class4b).on('click',function(){
-   var ff = document.querySelector("show");
-   var a = document.querySelector(".boton1a");
-   var b = document.querySelector(".boton2a");
-   var c = document.querySelector(".boton3a");
-   var d = document.querySelector(".boton4a");
-   var e = document.querySelector(".boton5a");
-   var f = document.querySelector(".boton5");
-   var g = document.querySelector(".boton6");
-   var h = document.querySelector(".boton9");
-   var i = document.querySelector(".boton10");
-   var j = document.querySelector(".boton13");
-   var k = document.querySelector(".boton14");
-   var l = document.querySelector(".boton17");
- 
-   if(ff == null){
-    $("#boton-menu3").addClass('blue')
+   var y = document.querySelector(".show");
+
+   var a = document.querySelector('.boton1a');
+   var b = document.querySelector('.boton2a');
+   var c = document.querySelector('.boton3a');
+   var d = document.querySelector('.boton4a');
+   var e = document.querySelector('.boton5a');
+   var f = document.querySelector('.boton1b');
+   var g = document.querySelector('.boton2b');
+   var h = document.querySelector('.boton1c');
+   var i = document.querySelector('.boton2c');
+   var j = document.querySelector('.boton1d');
+   var k = document.querySelector('.boton2d');
+   var l = document.querySelector('.boton1e');
+
+
+
+   if(y == null){
+      $("#boton-menu3").addClass('blue')
     }
     else if(a != null){
       $("#boton-menu3").addClass('blue')
-    }else if(b != null){
+    }
+    else if(b != null){
       $("#boton-menu3").addClass('blue')
-    }else if(c != null){
+    }
+    else if(c != null){
       $("#boton-menu3").addClass('blue')
-    }else if(d != null){
+    }
+    else if(d != null){
       $("#boton-menu3").addClass('blue')
-    }else if(e != null){
+    }
+    else if(e != null){
       $("#boton-menu3").addClass('blue')
-    }else if(f != null){
+    }
+    else if(f != null){
       $("#boton-menu3").addClass('blue')
-    }else if(g != null){
+    }
+    else if(g != null){
       $("#boton-menu3").addClass('blue')
-    }else if(h != null){
+    }
+    else if(h != null){
       $("#boton-menu3").addClass('blue')
-    }else if(i != null){
+    }
+    else if(i != null){
       $("#boton-menu3").addClass('blue')
-    }else if(j != null){
+    }
+    else if(j != null){
       $("#boton-menu3").addClass('blue')
-    }else if(k != null){
+    }
+    else if(k != null){
       $("#boton-menu3").addClass('blue')
-    }else if(l != null){
+    }
+    else if(l != null){
       $("#boton-menu3").addClass('blue')
     }
     else{
       $("#boton-menu3").removeClass('blue')
     }
-    
-    $class5c.toggleClass('.bg-light');
+
+    $($class5b).toggleClass('.show');
+});
+
+$($class4b).on('click',function(){
+
 });
  // Elimina las animacion de los
  //contenedores que aprecen horizontalmente
@@ -250,6 +271,7 @@ $($classbtcerrar1).on('click',function(){
 $($class2a).bind('click',function(){
     $($class3).addClass('blue');
 });
+
 // al precionar los botones inferiores
 // Elimina color a los botones de el layout colocandolos azules
 $($classbtcerrar1).on('click',function(){
