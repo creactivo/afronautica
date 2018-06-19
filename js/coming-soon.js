@@ -3,8 +3,9 @@ var $target2 = $('#boton-inferiores1,#boton-inferiores2,#boton-inferiores3,#boto
 var $classbtcerrar1 = $('#boton-cerrar1,#boton-cerrar2');
 
 var $class2a = $('#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton1b,#boton2b,#boton3b,#boton4b,#boton5b,#boton1c,#boton2c,#boton3c,#boton4c,#boton5c,#boton1d,#boton2d,#boton3d,#boton4d,#boton5d,#boton1e,#boton2e,#boton3e,#boton4e,#boton5e');
-var $class3 = $('#boton-menu1,#boton-menu3,#logo,#boton-menu3,#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton1b,#boton2b,#boton3b,#boton4b,#boton5b,#boton1c,#boton2c,#boton3c,#boton4c,#boton5c,#boton1d,#boton2d,#boton3d,#boton4d,#boton5d,#boton1e,#boton2e,#boton3e,#boton4e,#boton5e,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
+var $class3 = $('#boton-menu1,#boton-menu3,#boton-menu3,#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton1b,#boton2b,#boton3b,#boton4b,#boton5b,#boton1c,#boton2c,#boton3c,#boton4c,#boton5c,#boton1d,#boton2d,#boton3d,#boton4d,#boton5d,#boton1e,#boton2e,#boton3e,#boton4e,#boton5e,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
 
+var $classSvg = $('#logo');
 var $class4 = $('#boton-menu1');
 var $class4b = $('#boton-menu3');
 var $class4c = $('#carrodeCompras,#btn-haburger-menu');
@@ -144,54 +145,56 @@ $($class4).on('click',function(){
    var j = document.querySelector('.boton1d');
    var k = document.querySelector('.boton2d');
    var l = document.querySelector('.boton1e');
+   
 
 
    if(x == null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(a != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(b != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(c != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(d != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(e != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(f != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(g != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(h != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(i != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(j != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(k != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else if(l != null){
-      $("#boton-menu1").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
     }
     else{
-      $("#boton-menu1").removeClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo").removeClass('blue')
     }
 
     $class5.toggleClass('animate');
-});
 
+   
+});
 
 $($class4b).on('click',function(){
    var y = document.querySelector(".show");
@@ -212,54 +215,53 @@ $($class4b).on('click',function(){
 
 
    if(y == null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(a != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(b != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(c != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(d != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(e != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(f != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(g != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(h != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(i != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(j != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(k != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else if(l != null){
-      $("#boton-menu3").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
     }
     else{
-      $("#boton-menu3").removeClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo").removeClass('blue')
     }
 
     $($class5b).toggleClass('.show');
+
+    
 });
 
-$($class4b).on('click',function(){
-
-});
  // Elimina las animacion de los
  //contenedores que aprecen horizontalmente
 $($classbtcerrar1).on('click',function(){
@@ -272,11 +274,19 @@ $($class2a).bind('click',function(){
     $($class3).addClass('blue');
 });
 
+$($class2a).bind('click',function(){
+    $classSvg.addClass('blue');
+});
+
+$($classbtcerrar1).on('click',function(){
+    $classSvg.removeClass('blue');
+});
 // al precionar los botones inferiores
 // Elimina color a los botones de el layout colocandolos azules
 $($classbtcerrar1).on('click',function(){
     $class3.removeClass('blue');
 });
+
 
 
 
@@ -674,3 +684,35 @@ function parallaxIt(e, target, movement) {
 //     y: (relY - $this.height() / 2) / $this.height() * movement
 //   });
 // }
+
+
+var $firstButton = $(".first"),
+  $secondButton = $(".second"),
+  $input = $("input"),
+  $name = $(".name"),
+  $more = $(".more"),
+  $yourname = $(".yourname"),
+  $reset = $(".reset"),
+  $ctr = $(".container");
+
+$firstButton.on("click", function(e){
+  $(this).text("Saving...").delay(900).queue(function(){
+    $ctr.addClass("center slider-two-active").removeClass("full slider-one-active");
+  });
+  e.preventDefault();
+});
+
+$secondButton.on("click", function(e){
+  $(this).text("Saving...").delay(900).queue(function(){
+    $ctr.addClass("full slider-three-active").removeClass("center slider-two-active slider-one-active");
+    $name = $name.val();
+    if($name == "") {
+      $yourname.html("Anonymous!");
+    }
+    else { $yourname.html($name+"!"); }
+  });
+  e.preventDefault();
+});
+
+// copy
+balapaCop("Step by Step Form", "#999");
