@@ -5,7 +5,7 @@ var $classbtcerrar1 = $('#boton-cerrar1,#boton-cerrar2');
 var $class2a = $('#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton1b,#boton2b,#boton3b,#boton4b,#boton5b,#boton1c,#boton2c,#boton3c,#boton4c,#boton5c,#boton1d,#boton2d,#boton3d,#boton4d,#boton5d,#boton1e,#boton2e,#boton3e,#boton4e,#boton5e');
 var $class3 = $('#boton-menu1,#boton-menu3,#boton-menu3,#boton1a,#boton2a,#boton3a,#boton4a,#boton5a,#boton1b,#boton2b,#boton3b,#boton4b,#boton5b,#boton1c,#boton2c,#boton3c,#boton4c,#boton5c,#boton1d,#boton2d,#boton3d,#boton4d,#boton5d,#boton1e,#boton2e,#boton3e,#boton4e,#boton5e,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
 
-var $classSvg = $('#logo');
+var $classSvg = $('#logo-afro');
 var $class4 = $('#boton-menu1');
 var $class4b = $('#boton-menu3');
 var $class4c = $('#carrodeCompras,#btn-haburger-menu');
@@ -13,7 +13,7 @@ var $class5 = $('#carrodeCompras');
 var $class5b = $('#btn-haburger-menu');
 var $class5c = $('#navbarHeader');
 var $class6 = $('#boton-menu1');
-var $class7 = $('#boton-menu1,#logo,#boton-menu3,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
+var $class7 = $('#boton-menu1,#logo-afro,#boton-menu3,#gran-icono1,#gran-icono2,#gran-icono3,#gran-icono4,#gran-icono5');
 //las variables y funciones comentadas estan atadas a contenido que no existe en
 //html y para que vuelvan a funcionar deben de crearce.
 // links 1
@@ -149,46 +149,46 @@ $($class4).on('click',function(){
 
 
    if(x == null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(a != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(b != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(c != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(d != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(e != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(f != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(g != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(h != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(i != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(j != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(k != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else if(l != null){
-      $("#boton-menu1,#boton-menu3,#logo").addClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
     }
     else{
-      $("#boton-menu1,#boton-menu3,#logo").removeClass('blue')
+      $("#boton-menu1,#boton-menu3,#logo-afro").removeClass('blue')
     }
 
     $class5.toggleClass('animate');
@@ -215,46 +215,46 @@ $($class4b).on('click',function(){
 
 
    if(y == null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(a != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(b != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(c != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(d != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(e != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(f != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(g != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(h != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(i != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(j != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(k != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else if(l != null){
-      $("#boton-menu3,#boton-menu1,#logo").addClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
     }
     else{
-      $("#boton-menu3,#boton-menu1,#logo").removeClass('blue')
+      $("#boton-menu3,#boton-menu1,#logo-afro").removeClass('blue')
     }
 
     $($class5b).toggleClass('.show');
