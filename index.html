@@ -2714,85 +2714,64 @@
 <div class="modal fade bd-example-modal-lg" id="modal-reservas" tabindex="-1" role="dialog" aria-labelledby="modal-itinerario" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <!-- <div class="modal-header">
 
         <div class="col-12 text-center">
           <i class="fa fa-headphones fa-2x"></i>
           <h2 class="">Reserva</h2>
-          <h2 class="">Itinerario</h2>
+          <h class="">Otro titulo</h>
         </div>
 
         <button type="button" class="close close-add" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
 
-      </div>
+      </div> -->
 
       <div class="modal-body">
-       <div class="container">
-         <div class="row">
-           <div class="col-12">
+    
+           <!--  inicio del modal -->
 
-<div class="container-reserva slider-one-active">
-  <div class="steps">
-    <div class="step step-one">
-      <div class="liner"></div>
-      <span>Hello!</span>
-    </div>
-    <div class="step step-two">
-      <div class="liner"></div>
-      <span>Rating</span>
-    </div>
-    <div class="step step-three">
-      <div class="liner"></div>
-      <span>Conclusion</span>
-    </div>
-  </div>
-  <div class="line">
-    <div class="dot-move"></div>
-    <div class="dot zero"></div>
-    <div class="dot center"></div>
-    <div class="dot full"></div>
-  </div>
-  <div class="slider-ctr">
-    <div class="slider">
-      <form class="slider-form slider-one">
-        <h2>Step Form Design Experience</h2>
-        <label class="input">
-          <input type="text" class="name" placeholder="What's your name?">
-        </label>
-        <button class="first next">Next Step</button>
-      </form>
-      <form class="slider-form slider-two">
-        <h2>Are you happy with our service?</h2>
-        <div class="label-ctr">
-          <label class="radio">
-            <input type="radio" value="happy" name="condition">
-            <div class="emot happy">
-              <div class="mouth sad"></div>
-            </div>
-          </label>
-          <label class="radio">
-            <input type="radio" value="happy" name="condition">
-            <div class="emot happy">
-              <div class="mouth smile"></div>
-            </div>
-          </label>
-        </div>
-        <button class="second next">Next Step</button>
-      </form>
-      <div class="slider-form slider-three">
-        <h2>Hello, <span class="yourname"></span></h2>
-        <h3>Thank you for your input!
-          </h3>
-        <a class="reset" href="#" target="_blank">Reset</a>
-      </div>
-    </div>
-  </div>
-</div>
-           </div>
-         </div>
-       </div>
+           <!-- multistep form -->
+<form id="msform">
+  <!-- progressbar -->
+  <ul id="progressbar">
+    <li class="active">Account Setup</li>
+    <li>Social Profiles</li>
+    <li>Personal Details</li>
+  </ul>
+  <!-- fieldsets -->
+  <fieldset>
+    <h2 class="fs-title">Datos de alojamiento</h2>
+    <h3 class="fs-subtitle">Paso 1</h3>
+    <input type="text" name="email" placeholder="Email" />
+    <input type="password" name="pass" placeholder="Password" />
+    <input type="password" name="cpass" placeholder="Confirm Password" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">Datos personales</h2>
+    <h3 class="fs-subtitle">Paso 2</h3>
+    <input type="text" name="twitter" placeholder="Twitter" />
+    <input type="text" name="facebook" placeholder="Facebook" />
+    <input type="text" name="gplus" placeholder="Google Plus" />
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+  <fieldset>
+    <h2 class="fs-title">Detalles de reserva</h2>
+    <h3 class="fs-subtitle">Agrgar a carro de compras</h3>
+    <input type="text" name="fname" placeholder="First Name" />
+    <input type="text" name="lname" placeholder="Last Name" />
+    <input type="text" name="phone" placeholder="Phone" />
+    <textarea name="address" placeholder="Address"></textarea>
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+  </fieldset>
+</form>
+
+           <!--  inicio del modal -->
+
      </div>
      <div class="modal-footer">
 
