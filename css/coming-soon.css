@@ -23,8 +23,8 @@ h5 {
   font-size: 5rem; }
 
 p {
-  font-size: 1.3vw;
-  line-height: 1.4vw; }
+  font-size: 1rem;
+  line-height: 1rem; }
 
 .h1, .h2 {
   color: white; }
@@ -150,7 +150,7 @@ body {
     background-color: #fff; }
     .dropdown-item.blue:hover {
       background-color: rgba(23, 162, 184, 0.85);
-      color: #06173f; }
+      color: #1C4288; }
 
 .close-add {
   position: relative;
@@ -228,11 +228,11 @@ body {
       padding-right: 10rem; }
       .masthead .masthead-content h1 {
         font-size: 2.5rem;
-        color: #06173f; }
+        color: #1C4288; }
       .masthead .masthead-content p {
         font-size: 1rem;
         line-height: 1.5rem;
-        color: #06173f; } }
+        color: #1C4288; } }
 
 body {
   height: 100%;
@@ -243,8 +243,17 @@ body {
 .badge-car {
   display: inline;
   position: absolute;
-  top: 27%;
-  left: 17%; }
+  top: 6px;
+  left: 65px;
+  padding-right: 0.5em;
+  padding-left: .5em; }
+
+@media (min-width: 768px) {
+  .badge-car {
+    display: inline;
+    position: absolute;
+    top: 27px;
+    left: 75px; } }
 
 #carrodeCompras {
   position: fixed;
@@ -254,7 +263,7 @@ body {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease; }
-  #carrodeCompras.animate {
+  #carrodeCompras.animacionCompras {
     position: fixed;
     bottom: 0%;
     position: absolute;
@@ -270,256 +279,285 @@ body {
   max-width: 70px;
   padding: 0px; }
 
+.cerrar-dest {
+  visibility: collapse;
+  display: none; }
+
+.cerrar-media {
+  visibility: visible;
+  display: inherit; }
+
 #aparecido1 {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1.boton1a {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido2 {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2.boton2a {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido3 {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3.boton3a {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido4 {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4.boton4a {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido5 {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido5.boton5a {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido1b {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1b.boton1b {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido2b {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2b.boton2b {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido3b {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3b.boton3b {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido4b {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4b.boton4b {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido1c {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1c.boton1c {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido2c {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2c.boton2c {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido3c {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3c.boton3c {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido4c {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4c.boton4c {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido1d {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1d.boton1d {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido2d {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2d.boton2d {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido3d {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3d.boton3d {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido4d {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4d.boton4d {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido1e {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1e.boton1e {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido2e {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2e.boton2e {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 #aparecido3e {
   position: fixed;
   width: 100%;
   height: 100%;
-  right: 110%;
+  right: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3e.boton3e {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     right: 0%; }
 
 #aparecido4e {
   position: fixed;
   width: 100%;
   height: 100%;
-  left: 120%;
+  left: 100%;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4e.boton4e {
-    position: fixed;
+    overflow: auto;
+    height: 100%;
     left: 0%; }
 
 .background-afro1 {
@@ -527,16 +565,14 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  left: -20%;
-  width: 110%;
+  left: 0;
+  width: 100%;
+  height: 800px;
   min-height: 35rem;
   background-color: rgba(255, 255, 255, 0.93);
-  -webkit-transform: skewX(-10deg);
-  -ms-transform: skewX(-10deg);
-  transform: skewX(-10deg);
-  -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left; }
+  /* -webkit-transform-origin: bottom left; */
+  /*-ms-transform-origin: bottom left;*/
+  /* transform-origin: bottom left; */ }
 
 .background-afro2 {
   position: absolute;
@@ -545,14 +581,280 @@ body {
   right: 0;
   left: 0;
   width: 100%;
+  height: 800px;
   min-height: 35rem;
-  background-color: rgba(255, 255, 255, 0.93);
-  -webkit-transform: skewX(10deg);
-  -ms-transform: skewX(10deg);
-  transform: skewX(10deg);
-  -webkit-transform-origin: top right;
-  -ms-transform-origin: top right;
-  transform-origin: top right; }
+  background-color: rgba(255, 255, 255, 0.93); }
+
+@media (min-width: 768px) {
+  .cerrar-dest {
+    visibility: visible;
+    display: inherit; }
+  .cerrar-media {
+    visibility: collapse;
+    display: none; }
+  #aparecido1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido1.boton1a {
+      position: fixed;
+      right: 0%; }
+  #aparecido2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido2.boton2a {
+      position: fixed;
+      left: 0%; }
+  #aparecido3 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido3.boton3a {
+      position: fixed;
+      right: 0%; }
+  #aparecido4 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido4.boton4a {
+      position: fixed;
+      left: 0%; }
+  #aparecido5 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido5.boton5a {
+      position: fixed;
+      right: 0%; }
+  #aparecido1b {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido1b.boton1b {
+      position: fixed;
+      right: 0%; }
+  #aparecido2b {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido2b.boton2b {
+      position: fixed;
+      left: 0%; }
+  #aparecido3b {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido3b.boton3b {
+      position: fixed;
+      right: 0%; }
+  #aparecido4b {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido4b.boton4b {
+      position: fixed;
+      left: 0%; }
+  #aparecido1c {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido1c.boton1c {
+      position: fixed;
+      right: 0%; }
+  #aparecido2c {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido2c.boton2c {
+      position: fixed;
+      left: 0%; }
+  #aparecido3c {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido3c.boton3c {
+      position: fixed;
+      right: 0%; }
+  #aparecido4c {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido4c.boton4c {
+      position: fixed;
+      left: 0%; }
+  #aparecido1d {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido1d.boton1d {
+      position: fixed;
+      right: 0%; }
+  #aparecido2d {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido2d.boton2d {
+      position: fixed;
+      left: 0%; }
+  #aparecido3d {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido3d.boton3d {
+      position: fixed;
+      right: 0%; }
+  #aparecido4d {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido4d.boton4d {
+      position: fixed;
+      left: 0%; }
+  #aparecido1e {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido1e.boton1e {
+      position: fixed;
+      right: 0%; }
+  #aparecido2e {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido2e.boton2e {
+      position: fixed;
+      left: 0%; }
+  #aparecido3e {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 110%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido3e.boton3e {
+      position: fixed;
+      right: 0%; }
+  #aparecido4e {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 120%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    #aparecido4e.boton4e {
+      position: fixed;
+      left: 0%; }
+  .background-afro1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: -20%;
+    width: 110%;
+    height: 100%;
+    min-height: 35rem;
+    background-color: rgba(255, 255, 255, 0.93);
+    -webkit-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left; }
+  .background-afro2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 35rem;
+    background-color: rgba(255, 255, 255, 0.93);
+    -webkit-transform: skewX(10deg);
+    -ms-transform: skewX(10deg);
+    transform: skewX(10deg);
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right; } }
 
 .background-afro-carrito {
   position: absolute;
@@ -643,16 +945,17 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: #000;
-    border: 1px solid #000; }
+    color: #1C4288;
+    border: 1px solid #1C4288;
+    background-color: #fff; }
     .btn-car-compras.blue > .cls-1 {
-      fill: #000; }
+      fill: #1C4288; }
     .btn-car-compras.blue:hover {
       background-color: #fff;
-      color: #06173f; }
+      color: #1C4288; }
     .btn-car-compras.blue:active, .btn-car-compras.blue:focus {
-      border-color: #000;
-      color: #000; }
+      border-color: #1C4288;
+      color: #1C4288; }
 
 .btn-haburger-menu {
   font-family: 'Ubuntu', sans-serif;
@@ -668,13 +971,14 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: #000;
-    border: 1px solid #000; }
+    color: #1C4288;
+    border: 1px solid #1C4288;
+    background-color: #fff; }
     .btn-haburger-menu.blue > .cls-1 {
-      fill: #000; }
+      fill: #1C4288; }
     .btn-haburger-menu.blue:hover {
       background-color: #fff;
-      color: #06173f; }
+      color: #1C4288; }
 
 .menu {
   margin-top: 5px; }
@@ -695,28 +999,61 @@ body {
   height: 100%;
   z-index: 0; }
 
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff; }
+
 .supercarouselfuente {
-  font-size: 5vw;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   text-shadow: 0px 1px 5px #000;
   margin-left: auto;
-  margin-right: auto;
-  padding-left: 20%;
-  padding-right: 20%; }
+  margin-right: auto; }
   .supercarouselfuente h1 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 5vw; }
+    font-size: 2rem; }
   .supercarouselfuente p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
     font-weight: 300; }
 
-.img-carousel {
-  max-width: 50%;
-  margin-top: 5%; }
+@media (min-width: 768px) {
+  .supercarouselfuente {
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0px 1px 5px #000;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%; }
+    .supercarouselfuente h1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 5rem; }
+    .supercarouselfuente p {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 300; } }
 
-.cerrar {
+.img-carousel {
+  max-width: 100%;
+  margin-top: 50%; }
+
+@media (min-width: 768px) {
+  .img-carousel {
+    max-width: 50%;
+    margin-top: 5%;
+    height: 100%; } }
+
+.cerrar2 {
   line-height: 3.2rem;
   font-size: 1.5rem;
   color: #1C4288;
@@ -726,12 +1063,31 @@ body {
   margin: 0 auto;
   background: transparent;
   border: 1px solid #1C4288;
+  border-radius: 50%; }
+  .cerrar2 > p {
+    font-size: 1rem; }
+  .cerrar2 > .cls-1 {
+    fill: #1C4288; }
+
+.cerrar1 {
+  display: inline-block;
+  /* line-height: 3.2rem; */
+  /* font-size: 1.5rem; */
+  color: #1C4288;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  /* margin: 0 auto; */
+  background: transparent;
+  border: 1px solid #1C4288;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px rgba(28, 65, 135, 0.41);
-  box-shadow: 0px 3px 6px rgba(28, 65, 135, 0.41); }
+  /* -webkit-box-shadow: 0px 3px 6px rgba(28, 65, 135, 0.41); */
+  /* box-shadow: 0px 3px 6px rgba(28, 65, 135, 0.41); */ }
+  .cerrar1 > .cls-1 {
+    fill: #1C4288; }
 
 .cerrar-sm {
-  line-height: 1.5rem;
+  line-height: 2.5rem;
   font-size: 1rem;
   color: #1C4288;
   cursor: pointer;
@@ -740,9 +1096,9 @@ body {
   margin: 0 auto;
   background: transparent;
   border: 1px solid #1C4288;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 3px 6px rgba(28, 65, 135, 0.41);
-  box-shadow: 0px 3px 6px rgba(28, 65, 135, 0.41); }
+  border-radius: 50%; }
+  .cerrar-sm > .cls-1 {
+    fill: #1C4288; }
 
 .aceptar {
   display: inline-block;
@@ -786,14 +1142,14 @@ body {
   fill: #fff;
   width: 30vw; }
   #logo-afro.blue {
-    fill: #06173f; }
+    fill: #1C4288; }
 
 @media (min-width: 768px) {
   #logo-afro {
     fill: #fff;
     width: 10vw; }
     #logo-afro.blue {
-      fill: #06173f; } }
+      fill: #1C4288; } }
 
 #contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4, #contenedor-paralax5, #contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b, #contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c, #contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c, #contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d, #contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
   position: relative;
@@ -813,8 +1169,6 @@ body {
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100% !important;
-  width: 100% !important;
   text-align: left; }
 
 input:focus,
@@ -1240,7 +1594,7 @@ label.radio .emot .mouth.sad {
 
 #progressbar li {
   list-style-type: none;
-  color: #06173f;
+  color: #1C4288;
   text-transform: uppercase;
   font-size: 9px;
   width: 33.33%;
@@ -1309,16 +1663,24 @@ label.radio .emot .mouth.sad {
         border-radius: 100%;
         font-size: 1rem;
         line-height: 4rem;
-        height: 4rem;
-        width: 4rem; }
+        height: 2.5rem;
+        width: 2.5rem; }
         .social-icons ul > li .gran-icono > p {
-          font-size: .5rem;
+          display: inline;
+          position: absolute;
+          font-size: .6rem;
           letter-spacing: .1rem;
-          color: #fff; }
+          color: #fff;
+          line-height: .1rem;
+          bottom: 35px;
+          left: 0px; }
         .social-icons ul > li .gran-icono.blue {
-          color: #000;
-          fill: #000;
-          border: 1px solid #000; }
+          color: #1C4288;
+          fill: #1C4288;
+          background-color: #fff;
+          border: 1px solid #1C4288; }
+          .social-icons ul > li .gran-icono.blue > p {
+            color: #1C4288; }
 
 /* tablets*/
 @media (min-width: 768px) {
@@ -1356,43 +1718,44 @@ label.radio .emot .mouth.sad {
             .social-icons ul > li .gran-icono > p.centro {
               display: inline;
               position: absolute;
-              top: 70px;
-              left: 15px; }
+              top: 75px;
+              left: 34px; }
             .social-icons ul > li .gran-icono > p.derecha {
               display: inline;
               position: absolute;
-              top: 70px;
+              top: 75px;
               left: 40px; }
             .social-icons ul > li .gran-icono > p.izquierda {
               display: inline;
               position: absolute;
-              top: 70px;
+              top: 75px;
               left: 29px; }
           .social-icons ul > li .gran-icono.blue {
             -webkit-transition: all 0.2s ease-in-out;
             -o-transition: all 0.2s ease-in-out;
             transition: all 0.2s ease-in-out;
-            color: #000;
-            fill: #000;
-            border: 1px solid #000; }
+            color: #1C4288;
+            fill: #1C4288;
+            background-color: #fff;
+            border: 1px solid #1C4288; }
             .social-icons ul > li .gran-icono.blue > p {
-              color: #000; }
+              color: #1C4288; }
             .social-icons ul > li .gran-icono.blue > .cls-1 {
-              fill: #000; }
+              fill: #1C4288; }
             .social-icons ul > li .gran-icono.blue:hover {
               background-color: #fff;
-              color: #06173f;
-              fill: #000; }
+              color: #1C4288;
+              fill: #1C4288; }
           .social-icons ul > li .gran-icono:hover {
             font-size: 1.7rem;
             line-height: 4.5rem;
-            color: #000;
-            border: 1px solid #000;
+            color: #1C4288;
+            border: 1px solid #1C4288;
             background-color: #fff;
             height: 4.5rem;
             width: 4.5rem; }
             .social-icons ul > li .gran-icono:hover > .cls-1 {
-              fill: #000; } }
+              fill: #1C4288; } }
 
 .btn-primary {
   background-color: #C33D46;

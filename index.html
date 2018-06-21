@@ -12,7 +12,6 @@
   <title>Afronautica</title>
 
 
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
@@ -31,14 +30,16 @@
 
 
   <nav>
-    <div class="menu-dropdown bg-light collapse" id="navbarHeader" style="">
+    <div class="menu-dropdown bg-light collapse" id="navbarHeader">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-md-7 py-4 mt-6">
+          <div class="col-md-12 mt-6">
+            <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
             <h4 class="">About</h4>
             <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
           </div>
-          <div class="col-sm-4 offset-md-1 py-4 mt-6">
+          <div class="col-sm-4 offset-md-1 py-4">
             <h4 class="">Contact</h4>
             <ul class="list-unstyled">
               <li><a href="https://getbootstrap.com/docs/4.0/examples/album/#" class="text-secondary">Follow on Twitter</a></li>
@@ -46,6 +47,8 @@
               <li><a href="https://getbootstrap.com/docs/4.0/examples/album/#" class="text-secondary">Email me</a></li>
             </ul>
           </div>
+        </div>
+        </div>
         </div>
       </div>
     </div>
@@ -68,8 +71,8 @@
     <div id="carouselAfro" class="carousel supercarousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item text-center active">
-          <img class="h-100 img-fluid img-carousel" src="img/fondo-carousel1.png" alt="First slide">
-          <div class="carousel-caption d-none d-md-block supercarouselfuente">
+          <img class="img-fluid img-carousel" src="img/fondo-carousel1.png" alt="First slide">
+          <div class="carousel-caption supercarouselfuente">
             <!-- <div class="carousel-caption d-none d-md-block"> -->
             
              <h1>Diving Profecional</h1>
@@ -77,16 +80,16 @@
           </div>
         </div>
         <div class="carousel-item text-center">
-           <img class="h-100 img-fluid img-carousel" src="img/fondo-carousel2.png" alt="Second slide">
-           <div class="carousel-caption d-none d-md-block supercarouselfuente">
+           <img class="img-fluid img-carousel" src="img/fondo-carousel2.png" alt="Second slide">
+           <div class="carousel-caption supercarouselfuente">
          <!-- <div class="supercarouselfuente"> -->
          <h1>Diving Profecional</h1>
               <p>Disfruta del Tercer arrecife de coral mas extenso y diverso del planeta.</p>
         </div>
       </div>
       <div class="carousel-item text-center">
-         <img class="h-100 img-fluid img-carousel" src="img/fondo-carousel3.png" alt="Third slide">
-         <div class="carousel-caption d-none d-md-block supercarouselfuente">
+         <img class="img-fluid img-carousel" src="img/fondo-carousel3.png" alt="Third slide">
+         <div class="carousel-caption supercarouselfuente">
       <!--  <div class="supercarouselfuente"> -->
         <h1>Diving Profecional</h1>
               <p>Disfruta del Tercer arrecife de coral mas extenso y diverso del planeta.</p>
@@ -150,6 +153,8 @@
             <h3 class="mt-2 mb-3">Voucher de $10.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario1">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg></button>
+
           </div>
 
 
@@ -159,14 +164,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -221,6 +225,7 @@
             <h3 class="mt-2 mb-3">Voucher de $10.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario2">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+             <button id="boton-cerrar2" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg></button>
           </div>
 
 
@@ -230,14 +235,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar2">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar2">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -291,6 +295,7 @@
             <h3 class="mt-2 mb-3">Voucher de $10.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario3">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></button>
           </div>
 
 
@@ -300,19 +305,20 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
 </div>
 </section>
+
+
 <section class="aparecido4" id="aparecido4">
   <div class="container-fluid h-100">
     <div class="row h-100">
@@ -359,6 +365,7 @@
             <h3 class="mt-2 mb-3">Voucher de $10.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario4">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar2" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg></button>
           </div>
 
 
@@ -368,19 +375,20 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar2">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar2">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
 </div>
 </section>
+
+
 <section class="aparecido5" id="aparecido5">
   <div class="container-fluid h-100">
     <div class="row h-100">
@@ -424,6 +432,7 @@
             <h3 class="mt-2 mb-3">Voucher de $5.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario4">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></button>
           </div>
 
 
@@ -433,14 +442,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar2">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -496,6 +504,7 @@
             <h3 class="mt-2 mb-3">Voucher de $5.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario5">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></button>
           </div>
 
 
@@ -505,14 +514,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -566,6 +574,7 @@
             <h3 class="mt-2 mb-3">Voucher de $5.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario6">Mas Info</button>
            <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+           <button id="boton-cerrar2" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg></button>
           </div>
 
 
@@ -575,14 +584,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar2">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -636,6 +644,7 @@
             <h3 class="mt-2 mb-3">Voucher de $5.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario9">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></button>
           </div>
 
 
@@ -645,14 +654,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -704,6 +712,7 @@
             <h3 class="mt-2 mb-3">Voucher de $5.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario10">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar2" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg></button>
           </div>
 
 
@@ -713,14 +722,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar2">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar2">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -775,6 +783,7 @@
             <h3 class="mt-2 mb-3">Voucher de $5.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario13">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></button>
           </div>
 
 
@@ -784,14 +793,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -846,6 +854,7 @@
             <h3 class="mt-2 mb-3">Voucher de $10.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario14">Mas Info</button>
            <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+           <button id="boton-cerrar2" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg></button>
           </div>
 
 
@@ -855,16 +864,14 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar2">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar2">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
-    </div>
   </div>
 </div>
 </section>
@@ -915,6 +922,7 @@
             <h3 class="mt-2 mb-3">Voucher de $10.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario15">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></button>
           </div>
 
 
@@ -924,14 +932,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -989,14 +996,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar2">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar2">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></svg>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -1050,6 +1056,8 @@
             <h3 class="mt-2 mb-3">Voucher de $10.000 en cualquier otro servicio ofrecido por Afronautica.</h3>
             <button type="button" class="btn btn-lg btn-outline-info btn-afro" data-toggle="modal" data-target="#modal-itinerario17">Mas Info</button>
             <button type="button" class="btn btn-lg btn-outline-warning btn-afro" data-toggle="modal" data-target="#modal-reservas">Reserva</button>
+            <button id="boton-cerrar1" class="btn btn-lg cerrar1 cerrar-media"><svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/></button>
+
           </div>
 
 
@@ -1059,14 +1067,13 @@
       </div>
       <!-- fin de contenido -->
       <!-- inicio de video -->
-      <div class="col-md-2 text-center my-auto">
+      <div class="col-md-2 text-center my-auto cerrar-dest">
 
-        <div class="cerrar" id="boton-cerrar1">
-          <i class="fas fa-times"></i>
+        <div class="cerrar2" id="boton-cerrar1">
+          <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
+          <p class="text-center mt-2">Cerrar</p>
         </div>
-        <p class="text-center mt-2">Cerrar</p>
-
-
+        
       </div>
     </div>
   </div>
@@ -1088,7 +1095,6 @@
               <table class="table table-hover table-bordered">
                 <thead>
                   <tr class="text-center">
-                    <th scope="col">Imagen</th>
                     <th scope="col">Detalle</th>
                     <th scope="col">Cantidad</th>
                     <th scope="col">Eliminar</th>
@@ -1097,10 +1103,6 @@
                 <tbody>
                   <!-- inicio de la tarjeta -->
                   <tr class="text-center">
-                    <th>
-                      <img src="img/img-buceo-item.jpg" class="img-fluid rounded-circle img-carrito" alt="imagen de buceo">
-                    </th>
-
                     <td class="my-auto h-100">
                       <p>Buceo Mini curso</p>
                     </td>
@@ -1110,7 +1112,7 @@
                     </td>
                     <td>
                       <button id="boton-cerrar-item" type="button" class="text-center cerrar-sm" aria-label="Close">
-                        <i class="fas fa-times"></i>
+                        <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
                       </button>
                     </td>
 
@@ -1118,9 +1120,7 @@
                   <!-- fin de la tarjeta -->
                   <!-- inicio de la tarjeta -->
                   <tr class="text-center">
-                    <th>
-                      <img src="img/img-buceo-item.jpg" class="img-fluid rounded-circle img-carrito" alt="imagen de buceo">
-                    </th>
+                    
 
                     <td class="my-auto h-100">
                       <p>Buceo Mini curso</p>
@@ -1131,7 +1131,7 @@
                     </td>
                     <td>
                       <button id="boton-cerrar-item" type="button" class="text-center cerrar-sm" aria-label="Close">
-                        <i class="fas fa-times"></i>
+                        <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
                       </button>
                     </td>
 
@@ -1139,9 +1139,7 @@
                   <!-- fin de la tarjeta -->
                   <!-- inicio de la tarjeta -->
                   <tr class="text-center">
-                    <th>
-                      <img src="img/img-buceo-item.jpg" class="img-fluid rounded-circle img-carrito" alt="imagen de buceo">
-                    </th>
+                   
 
                     <td class="my-auto h-100">
                       <p>Buceo Mini curso</p>
@@ -1152,7 +1150,7 @@
                     </td>
                     <td>
                       <button id="boton-cerrar-item" type="button" class="text-center cerrar-sm" aria-label="Close">
-                        <i class="fas fa-times"></i>
+                        <svg id="Capa_10" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 178.5"><title>iconos</title><path d="M121,50.87,90.5,81.36,60,50.87a5.58,5.58,0,0,0-7.89,7.89L82.61,89.25,52.12,119.74A5.58,5.58,0,1,0,60,127.63L90.5,97.14,121,127.63a5.58,5.58,0,1,0,7.89-7.89L98.39,89.25l30.49-30.49A5.58,5.58,0,1,0,121,50.87Z"/>
                       </button>
                     </td>
 
@@ -1213,7 +1211,7 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a id="gran-icono3" class="gran-icono" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><svg id="Capa_3" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 181"><title>icon66</title><path d="M133.9,109.66H43.81V87.36a3.24,3.24,0,0,0-6.48,0v48.21a3.24,3.24,0,0,0,6.48,0V116.14H133.9a3.29,3.29,0,0,1,3.29,3.29v16.14a3.24,3.24,0,0,0,6.48,0V119.43A9.78,9.78,0,0,0,133.9,109.66Z"/><path d="M100.28,108h21.28a7.45,7.45,0,0,0,0-14.9H100.28A3.24,3.24,0,0,0,97,96.35v8.42A3.24,3.24,0,0,0,100.28,108Zm3.24-8.42h18a1,1,0,0,1,0,1.94h-18Z"/><path d="M45.83,104.77A3.24,3.24,0,0,0,49.07,108H60a3.24,3.24,0,0,0,3.24-3.24s0,0,0,0A9.08,9.08,0,0,0,70.16,108H93.09a3.23,3.23,0,0,0,3.23-3.24V93a3.23,3.23,0,0,0-3.23-3.24H70.16a9.12,9.12,0,0,0-7.89,4.62c0-.23.07-.46.07-.7a8.26,8.26,0,1,0-10.57,7.88h-2.7A3.25,3.25,0,0,0,45.83,104.77Zm24.33-8.56H89.85v5.32H70.16a2.66,2.66,0,0,1,0-5.32Zm-9,1.7c0,.32-.09.63-.09,1a8.9,8.9,0,0,0,.58,3.11,3.31,3.31,0,0,0-1.62-.45H56.4A8.18,8.18,0,0,0,61.12,97.91Zm-7-6a1.78,1.78,0,1,1-1.78,1.77A1.77,1.77,0,0,1,54.09,91.88Z"/></svg><!-- <i class="fa fa-bed"></i> --><p class="centro">ALOJAMIENTO</p></a>
+        <a id="gran-icono3" class="gran-icono" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><svg id="Capa_3" class="cls-1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181 181"><title>icon66</title><path d="M133.9,109.66H43.81V87.36a3.24,3.24,0,0,0-6.48,0v48.21a3.24,3.24,0,0,0,6.48,0V116.14H133.9a3.29,3.29,0,0,1,3.29,3.29v16.14a3.24,3.24,0,0,0,6.48,0V119.43A9.78,9.78,0,0,0,133.9,109.66Z"/><path d="M100.28,108h21.28a7.45,7.45,0,0,0,0-14.9H100.28A3.24,3.24,0,0,0,97,96.35v8.42A3.24,3.24,0,0,0,100.28,108Zm3.24-8.42h18a1,1,0,0,1,0,1.94h-18Z"/><path d="M45.83,104.77A3.24,3.24,0,0,0,49.07,108H60a3.24,3.24,0,0,0,3.24-3.24s0,0,0,0A9.08,9.08,0,0,0,70.16,108H93.09a3.23,3.23,0,0,0,3.23-3.24V93a3.23,3.23,0,0,0-3.23-3.24H70.16a9.12,9.12,0,0,0-7.89,4.62c0-.23.07-.46.07-.7a8.26,8.26,0,1,0-10.57,7.88h-2.7A3.25,3.25,0,0,0,45.83,104.77Zm24.33-8.56H89.85v5.32H70.16a2.66,2.66,0,0,1,0-5.32Zm-9,1.7c0,.32-.09.63-.09,1a8.9,8.9,0,0,0,.58,3.11,3.31,3.31,0,0,0-1.62-.45H56.4A8.18,8.18,0,0,0,61.12,97.91Zm-7-6a1.78,1.78,0,1,1-1.78,1.77A1.77,1.77,0,0,1,54.09,91.88Z"/></svg><!-- <i class="fa fa-bed"></i> --><p class="centro">ESTADIA</p></a>
 
         <div class="dropdown-menu dropdown-menu-afro" id="boton-inferiores3">
 

@@ -131,7 +131,7 @@ $($target2).on('click','a',function(){
 });
 
 $($class4).on('click',function(){
-   var x = document.querySelector(".animate");
+   var x = document.querySelector(".animacionCompras");
 
    var a = document.querySelector('.boton1a');
    var b = document.querySelector('.boton2a');
@@ -191,7 +191,7 @@ $($class4).on('click',function(){
       $("#boton-menu1,#boton-menu3,#logo-afro").removeClass('blue')
     }
 
-    $class5.toggleClass('animate');
+    $class5.toggleClass('animacionCompras');
 
    
 });
@@ -690,7 +690,7 @@ function parallaxIt(e, target, movement) {
 
 //jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
-var left, opacity, scale; //fieldset properties which we will animate
+var left, opacity, scale; //fieldset properties which we will animacionCompras
 var animating; //flag to prevent quick multi-click glitches
 
 $(".next").click(function(){
@@ -706,7 +706,7 @@ $(".next").click(function(){
   //show the next fieldset
   next_fs.show(); 
   //hide the current fieldset with style
-  current_fs.animate({opacity: 0}, {
+  current_fs.animacionCompras({opacity: 0}, {
     step: function(now, mx) {
       //as the opacity of current_fs reduces to 0 - stored in "now"
       //1. scale current_fs down to 80%
@@ -744,7 +744,7 @@ $(".previous").click(function(){
   //show the previous fieldset
   previous_fs.show(); 
   //hide the current fieldset with style
-  current_fs.animate({opacity: 0}, {
+  current_fs.animacionCompras({opacity: 0}, {
     step: function(now, mx) {
       //as the opacity of current_fs reduces to 0 - stored in "now"
       //1. scale previous_fs from 80% to 100%
