@@ -807,7 +807,9 @@ body{
     margin-right:1%;
     border-radius: 50%;
     border:1px solid #fff;
-    >.cls-1{fill: $white;}
+    >.cls-1{
+      fill: $white;
+    }
     &.blue{
           transition: all 0.2s ease-in-out;
           color: $blue-afro;
