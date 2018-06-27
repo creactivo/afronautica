@@ -3,12 +3,17 @@ var camposList = [];
 function addCamposSistem(aFechaini,aFechafinal,aElemento,aNombre,aApellido,aNacionalidad,aEmail) {
 
 	var newCampos = {
+<<<<<<< HEAD
 		fechaini: aFechaini,
 		fechafinal: aFechafinal,
 		nombre: aElemento,
 		nombre: aApellido,
 		nombre: aNacionalidad,
 		email:aEmail
+=======
+		nombre: anombre,
+		email:aemail
+>>>>>>> 19e32bb2327505f072bc0f3035d060cbd3fe5536
 	};
 
 camposList.push(newCampos);
@@ -53,6 +58,7 @@ function registrarLibro() {
 		bNacionalidad document.querySelector('#inputNacionalidad').value,
 		bEmail document.querySelector('#inputEmail').value;
 
+<<<<<<< HEAD
 		aFechaini.push(bFechaini);
 		aFechafinal.push(bFechafinal);
 		aElemento.push(bElemento);
@@ -69,5 +75,23 @@ function registrarLibro() {
 	localStorage.setItem('nApellido', JSON.stringify(aApellido));
 	localStorage.setItem('nNacionalidad', JSON.stringify(aNacionalidad));
 	localStorage.setItem('nEmail', JSON.stringify(aEmail));
+=======
+		aFechaini.push(bEmail);
+		aFechafinal.push(bEmail);
+		aElemento.push(bEmail);
+		aNombre.push(bEmail);
+		aApellido.push(bEmail);
+		aNacionalidad.push(bEmail);
+		aEmail.push(bEmail);
+
+
+	localStorage.setItem('lemail', JSON.stringify(aFechaini));
+	localStorage.setItem('lpassword', JSON.stringify(aFechafinal));
+	localStorage.setItem('laddress', JSON.stringify(aElemento));
+	localStorage.setItem('laddress', JSON.stringify(aNombre));
+	localStorage.setItem('laddress', JSON.stringify(aApellido));
+	localStorage.setItem('laddress', JSON.stringify(aNacionalidad));
+	localStorage.setItem('laddress', JSON.stringify(aEmail));
+>>>>>>> 19e32bb2327505f072bc0f3035d060cbd3fe5536
 };
 

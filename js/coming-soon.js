@@ -192,9 +192,7 @@ $($class4).on('click',function(){
     }
 
     $class5.toggleClass('animacionCompras');
-    console.log(x)
 
-   
 });
 
 $($class4b).on('click',function(){
@@ -216,7 +214,9 @@ $($class4b).on('click',function(){
 
 
    if(y == null){
+
       $("#boton-menu1,#boton-menu3,#logo-afro").addClass('blue')
+
     }
     else if(a != null){
       $("#boton-menu3,#boton-menu1,#logo-afro").addClass('blue')
@@ -259,8 +259,6 @@ $($class4b).on('click',function(){
     }
 
    $class5b.toggleClass('show');
-    console.log(x)
-
 });
 
  // Elimina las animacion de los
@@ -771,3 +769,4 @@ return false;
 })
 
 });
+
