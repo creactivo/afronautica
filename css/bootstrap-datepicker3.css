@@ -23,7 +23,7 @@
 .datepicker-dropdown {
   top: 0;
   left: 0;
-  padding: 4px;
+  padding: 25px;
 }
 .datepicker-dropdown:before {
   content: '';
@@ -86,7 +86,7 @@
   text-align: center;
   width: 30px;
   height: 30px;
-  border-radius: 4px;
+  border-radius: 50px;
   border: none;
 }
 .table-striped .datepicker table tr td,
@@ -99,7 +99,7 @@
 }
 .datepicker table tr td.day:hover,
 .datepicker table tr td.focused {
-  background: #eeeeee;
+  background: #17a2b83d;
   cursor: pointer;
 }
 .datepicker table tr td.disabled,

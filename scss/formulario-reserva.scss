@@ -10,7 +10,6 @@
       /* background: white; */
     border: 0 none;
     border-radius: 3px;
-<<<<<<< HEAD
     -webkit-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
     padding: 20px 30px;
@@ -22,19 +21,6 @@
   
   /*stacking fieldsets above each other*/
  
-=======
-    /* -webkit-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); */
-    /* box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); */
-    padding: 20px 30px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 60%;
-    margin: 0 auto;
-    position: relative;
-  
-  /*stacking fieldsets above each other*/
-  position: relative;
->>>>>>> 19e32bb2327505f072bc0f3035d060cbd3fe5536
 }
 /*Hide all except first fieldset*/
 #msform fieldset:not(:first-of-type) {
@@ -46,11 +32,7 @@
   border: 1px solid #17a2b8;
   border-radius: 50px;
   margin-bottom: 10px;
-<<<<<<< HEAD
   width: 50%;
-=======
-  width: 100%;
->>>>>>> 19e32bb2327505f072bc0f3035d060cbd3fe5536
   box-sizing: border-box;
   font-family: montserrat;
   color: #2C3E50;
@@ -58,13 +40,8 @@
 }
 /*buttons*/
 #msform .action-button {
-<<<<<<< HEAD
   /* width: 100px; */
   background-color: white;
-=======
-  width: 100px;
-  // background: #27AE60;
->>>>>>> 19e32bb2327505f072bc0f3035d060cbd3fe5536
   // color: white;
   border: 1px solid #ff8122;
   border-radius: 50px;
@@ -141,7 +118,6 @@
   background: #17a2b8;
   color: white;
 }
-<<<<<<< HEAD
 .icon-datepiker{
   width: 2.5rem;
     height: 2.5rem;
@@ -160,8 +136,5 @@
   height: 2.5rem;
   font-size: 1.5rem;
 }
-=======
-
->>>>>>> 19e32bb2327505f072bc0f3035d060cbd3fe5536
 
 
