@@ -15,16 +15,32 @@
       .gran-icono {
         display: block;
         color: white;
-        border: 1px solid #fff;
+        fill:$white;
+        border: 2px solid #fff;
         /*background-color: fade-out($primary, 0.2);*/
         border-radius: 100%;
         font-size: 1rem;
-        line-height: 2.5rem;
+        line-height: 3rem;
         height: 2.5rem;
         width: 2.5rem;
+        > p{
+            display: inline;
+            position: absolute;
+            font-size: .6rem;
+            letter-spacing: .1rem;
+            color: #fff;
+            line-height: .1rem;
+            bottom: 35px;
+            left: 0px;
+          }
         &.blue {
-        color: #000;
-        border: 1px solid #000;
+        color: $blue-afro;
+        fill:$blue-afro;
+        background-color: #fff;
+        border: 2px solid $blue-afro;
+        > p{
+          color: $blue-afro;
+        }
         }
       }
     }
@@ -56,23 +72,59 @@
           height: 4rem;
           width: 4rem;
           margin: 0px 30px;
-          &.blue {
+          text-decoration:none;
+          border: 3px solid $white;
+          fill:$white;
+          > p{
+            font-size: .8rem;
+            letter-spacing:.1rem;
+            color:$white;
+            &.centro{
+            display: inline;
+            position: absolute;
+            top: 75px;
+            left: 34px;
+            }
+            &.derecha{
+              display: inline;
+              position: absolute;
+              top: 75px;
+              left: 40px;
+            }
+            &.izquierda{
+              display: inline;
+              position: absolute;
+              top: 75px;
+              left: 29px;
+            }
+          }
+          &.blue{
           transition: all 0.2s ease-in-out;
-          color: #000;
-          border: 1px solid #000;
+          color: $blue-afro;
+          fill:$blue-afro;
+          background-color: #fff;
+          border: 3px solid $blue-afro;
+          > p{color: $blue-afro;}
+          >.cls-1{
+            fill:$blue-afro;
+          }
             &:hover {
             background-color: $white;
             color: $blue-afro;
-            }   
+            fill:$blue-afro;
+            }
           }
           &:hover{
           font-size: 1.7rem;
           line-height: 4.5rem;
-          color: #000;
-          border: 1px solid #000;
+          color: $blue-afro;
+          border: 3px solid $blue-afro;
           background-color:$white;
           height: 4.5rem;
           width: 4.5rem;
+          >.cls-1{
+            fill:$blue-afro;
+          }
           }
     }
       }
