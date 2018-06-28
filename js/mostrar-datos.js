@@ -8,6 +8,7 @@ function salvarCampo(){
 	var sFechaini = document.querySelector('#textFechaini').value,
 		sFechafinal = document.querySelector('#textFechafinal').value,
 		sElemento = document.querySelector('#textElemento').value,
+		sNombre = document.querySelector('#textNombre').value,
 		sApellido = document.querySelector('#textApellido').value,
 		sNacionalidad = document.querySelector('#textNacionalidad').value,
 		sEmail = document.querySelector('#textEmail').value;

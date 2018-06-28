@@ -6,8 +6,9 @@ function addCamposSistem(aFechaini,aFechafinal,aElemento,aNombre,aApellido,aNaci
 		fechaini: aFechaini,
 		fechafinal: aFechafinal,
 		nombre: aElemento,
-		nombre: aApellido,
-		nombre: aNacionalidad,
+		nombre: aNombre,
+		apellido: aApellido,
+		nacionalidad: aNacionalidad,
 		email:aEmail
 	};
 
