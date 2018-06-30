@@ -98,8 +98,7 @@ body {
 
 .form-control {
   border-radius: 100px;
-  font-size: .8rem;
-  text-align: center; }
+  font-size: .8rem; }
 
 .btn-afro {
   border-radius: 100px; }
@@ -1222,7 +1221,7 @@ body {
   border: 1px solid #17a2b8;
   border-radius: 50px;
   margin-bottom: 10px;
-  width: 50%;
+  /*   width: 50%; */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: montserrat;
@@ -1236,7 +1235,7 @@ body {
   border: 1px solid #ff8122;
   border-radius: 50px;
   cursor: pointer;
-  padding: 10px 5px;
+  padding: 10px 30px;
   margin: 10px 5px; }
 
 #msform .action-button:hover, #msform .action-button:focus {
@@ -1325,6 +1324,18 @@ body {
   height: 2.5rem;
   font-size: 1.5rem; }
 
+.form-check {
+  text-align: left;
+  padding: 5px 15px;
+  margin: 10px 0 5px 0;
+  border-bottom: 1px solid #17a2b8;
+  font-weight: 600; }
+
+/* #msform .form-check input{
+}
+#msform .form-check label{
+ 
+} */
 /* mobile*/
 .social-icons {
   position: fixed;
