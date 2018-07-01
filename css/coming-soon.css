@@ -1034,12 +1034,18 @@ body {
   margin-right: auto; }
   .supercarouselfuente h1 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem; }
+    font-size: 2rem;
+    position: relative; }
   .supercarouselfuente p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     line-height: 1.2rem;
-    font-weight: 300; }
+    font-weight: 300;
+    position: relative; }
+
+.subimg-carousel {
+  position: relative;
+  bottom: -220px; }
 
 @media (min-width: 768px) {
   .supercarouselfuente {
@@ -1049,14 +1055,17 @@ body {
     text-shadow: 0px 1px 5px #000;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20%;
-    padding-right: 20%; }
+    padding-left: 10%;
+    padding-right: 10%; }
     .supercarouselfuente h1 {
       font-family: 'Ubuntu', sans-serif;
-      font-size: 5rem; }
+      font-size: 5rem;
+      line-height: 5rem;
+      font-weight: 500; }
     .supercarouselfuente p {
       font-family: 'Ubuntu', sans-serif;
       font-size: 1.4rem;
+      line-height: 1.4rem;
       font-weight: 300; } }
 
 .img-carousel {
@@ -1067,6 +1076,12 @@ body {
   .img-carousel {
     max-width: 50%;
     margin-top: 5%;
+    height: 100%; } }
+
+@media (min-width: 960px) {
+  .img-carousel {
+    max-width: 60%;
+    margin-top: 16%;
     height: 100%; } }
 
 .cerrar2 {

@@ -38,6 +38,11 @@ var $subimgSlide3a = $('#subimg3a');
 var $subimgSlide4a = $('#subimg4a');
 var $subimgSlide5a = $('#subimg5a');
 
+
+
+
+
+
 // links 2
 var $contenedorParalax1b = $("#contenedor-paralax1b");
 var $contenedorParalax2b = $("#contenedor-paralax2b");
@@ -110,6 +115,24 @@ var $subimgSlide1e = $('#subimg1e');
 var $subimgSlide2e = $('#subimg2e');
 // var $subimgSlide3e = $('#subimg3e');
 // var $subimgSlide4e = $('#subimg4e');
+
+// Carousel 1
+var $carouselcontenedorParalax1a = $("#caroucel-paralax1a");
+var $carouselcontenedorParalax2b = $("#caroucel-paralax2b");
+var $carouselcontenedorParalax3c = $("#caroucel-paralax3c");
+
+var $carouselparalaxSlide1a = $('#slide-carousel-paralax1a');
+var $carouselparalaxSlide2b = $('#slide-carousel-paralax2b');
+var $carouselparalaxSlide3c = $('#slide-carousel-paralax3c');
+
+var $carouselimgSlide1a = $('#img-carousel1a');
+var $carouselimgSlide2b = $('#img-carousel2b');
+var $carouselimgSlide3c = $('#img-carousel3c');
+
+
+var $carouselsubimgSlide1a = $('#subimg-carousel1a');
+var $carouselsubimgSlide2b = $('#subimg-carousel2b');
+var $carouselsubimgSlide3c = $('#subimg-carousel3c');
 
 (function(){
   "use strict"; // Start of use strict
@@ -685,6 +708,38 @@ function parallaxIt(e, target, movement) {
 //     y: (relY - $this.height() / 2) / $this.height() * movement
 //   });
 // }
+
+$carouselcontenedorParalax3c
+$carouselparalaxSlide3c
+$carouselimgSlide3c
+$carouselsubimgSlide3c
+
+// carousel efecto paralax
+
+$($carouselcontenedorParalax3c).mousemove(function(e) {
+  parallaxIt(e, $carouselparalaxSlide3c, -50);
+  parallaxIt(e, $carouselimgSlide3c, -40);
+  parallaxIt(e, $carouselsubimgSlide3c, -30);
+})
+
+function parallaxIt(e, target, movement) {
+  var $this = $($carouselparalaxSlide3c);
+  var relX = e.pageX - $this.offset().right;
+  var relY = e.pageY - $this.offset().top;
+
+  TweenMax.to(target, 1, {
+
+    x: (relX - $this.width() / 2) / $this.width() * movement,
+    y: (relY - $this.height() / 2) / $this.height() * movement
+  });
+}
+
+
+
+
+
+
+
 
 // FORULARIO DE RESERVA=========================
 
