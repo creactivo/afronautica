@@ -11,13 +11,16 @@ h6 {
   font-weight: 300; }
 
 h1 {
-  font-size: 1.8vw; }
+  font-size: 1.8rem; }
 
 h2 {
-  font-size: 5.4vw; }
+  font-size: 5.4rem; }
 
 h3 {
-  font-size: 5.0vw; }
+  font-size: 5.0rem; }
+
+h4 {
+  font-size: .7rem; }
 
 h5 {
   font-size: 5rem; }
@@ -1009,16 +1012,26 @@ body {
 
 .supercarousel {
   position: fixed;
-  display: block;
   color: white;
   width: 100%;
   height: 100%;
-  z-index: 0; }
+  z-index: 0;
+  -ms-display: flex;
+  display: -webkit-box;
+  display: flex;
+  /* alineacion vertical */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* alineacion horizontal */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 0px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -1026,15 +1039,15 @@ body {
   color: #fff; }
 
 .supercarouselfuente {
-  font-size: 2rem;
-  font-weight: 600;
   text-align: center;
   text-shadow: 0px 1px 5px #000;
   margin-left: auto;
   margin-right: auto; }
   .supercarouselfuente h1 {
+    font-weight: 600;
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
+    line-height: 2rem;
     position: relative; }
   .supercarouselfuente p {
     font-family: 'Ubuntu', sans-serif;
@@ -1045,12 +1058,10 @@ body {
 
 .subimg-carousel {
   position: relative;
-  bottom: -220px; }
+  bottom: -150px; }
 
 @media (min-width: 768px) {
   .supercarouselfuente {
-    font-size: 5vw;
-    font-weight: 600;
     text-align: center;
     text-shadow: 0px 1px 5px #000;
     margin-left: auto;
@@ -1059,30 +1070,23 @@ body {
     padding-right: 10%; }
     .supercarouselfuente h1 {
       font-family: 'Ubuntu', sans-serif;
-      font-size: 5rem;
-      line-height: 5rem;
+      font-size: 6rem;
+      line-height: 6rem;
       font-weight: 500; }
     .supercarouselfuente p {
       font-family: 'Ubuntu', sans-serif;
-      font-size: 1.4rem;
-      line-height: 1.4rem;
-      font-weight: 300; } }
-
-.img-carousel {
-  max-width: 100%;
-  margin-top: 50%; }
-
-@media (min-width: 768px) {
-  .img-carousel {
-    max-width: 50%;
-    margin-top: 5%;
-    height: 100%; } }
-
-@media (min-width: 960px) {
-  .img-carousel {
-    max-width: 60%;
-    margin-top: 16%;
-    height: 100%; } }
+      font-size: 2rem;
+      line-height: 2rem;
+      font-weight: 300; }
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 25%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff; } }
 
 .cerrar2 {
   line-height: 3.2rem;
@@ -1182,7 +1186,7 @@ body {
     #logo-afro.blue {
       fill: #1C4288; } }
 
-#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4, #contenedor-paralax5, #contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b, #contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c, #contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c, #contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d, #contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
+#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4, #contenedor-paralax5, #contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b, #contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c, #contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d, #contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
   position: relative;
   width: 100%;
   display: -webkit-box;

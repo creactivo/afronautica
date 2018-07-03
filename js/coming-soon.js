@@ -117,9 +117,9 @@ var $subimgSlide2e = $('#subimg2e');
 // var $subimgSlide4e = $('#subimg4e');
 
 // Carousel 1
-var $carouselcontenedorParalax1a = $("#caroucel-paralax1a");
-var $carouselcontenedorParalax2b = $("#caroucel-paralax2b");
-var $carouselcontenedorParalax3c = $("#caroucel-paralax3c");
+var $carouselcontenedorParalax1a = $('#caroucel-paralax1a');
+var $carouselcontenedorParalax2b = $('#caroucel-paralax2b');
+var $carouselcontenedorParalax3c = $('#caroucel-paralax3c');
 
 var $carouselparalaxSlide1a = $('#slide-carousel-paralax1a');
 var $carouselparalaxSlide2b = $('#slide-carousel-paralax2b');
@@ -420,7 +420,8 @@ function parallaxIt(e, target, movement) {
 
 $($contenedorParalax1b).mousemove(function(e) {
   parallaxIt(e, $paralaxSlide1b, -50);
-  parallaxIt(e, "img", -30);
+  parallaxIt(e, $imgSlide1b , -40);
+  parallaxIt(e, $subimgSlide1b, -30);
 })
 
 function parallaxIt(e, target, movement) {
@@ -438,7 +439,8 @@ function parallaxIt(e, target, movement) {
 
 $($contenedorParalax2b).mousemove(function(e) {
   parallaxIt(e, $paralaxSlide2b, -50);
-  parallaxIt(e, "img", -30);
+  parallaxIt(e, $imgSlide2b, -40);
+  parallaxIt(e, $subimgSlide2b, -30);
 })
 
 function parallaxIt(e, target, movement) {
@@ -493,7 +495,8 @@ function parallaxIt(e, target, movement) {
 
 $($contenedorParalax1c).mousemove(function(e) {
   parallaxIt(e, $paralaxSlide1c, -50);
-  parallaxIt(e, "img", -30);
+  parallaxIt(e, $imgSlide1c, -40);
+  parallaxIt(e, $subimgSlide1c, -30);
 })
 
 function parallaxIt(e, target, movement) {
@@ -511,7 +514,8 @@ function parallaxIt(e, target, movement) {
 
 $($contenedorParalax2c).mousemove(function(e) {
   parallaxIt(e, $paralaxSlide2c, -50);
-  parallaxIt(e, "img", -30);
+  parallaxIt(e, $imgSlide2c, -30);
+  parallaxIt(e, $subimgSlide2c, -30);
 })
 
 function parallaxIt(e, target, movement) {
@@ -566,7 +570,8 @@ function parallaxIt(e, target, movement) {
 
 $($contenedorParalax1d).mousemove(function(e) {
   parallaxIt(e, $paralaxSlide1d, -50);
-  parallaxIt(e, "img", -30);
+  parallaxIt(e, $imgSlide1d, -40);
+  parallaxIt(e, $subimgSlide1d, -30);
 })
 
 function parallaxIt(e, target, movement) {
@@ -584,7 +589,8 @@ function parallaxIt(e, target, movement) {
 
 $($contenedorParalax2d).mousemove(function(e) {
   parallaxIt(e, $paralaxSlide2d, -50);
-  parallaxIt(e, "img", -30);
+  parallaxIt(e, $imgSlide2d, -40);
+  parallaxIt(e, $subimgSlide2d, -30);
 })
 
 function parallaxIt(e, target, movement) {
@@ -640,7 +646,8 @@ function parallaxIt(e, target, movement) {
 
 $($contenedorParalax1e).mousemove(function(e) {
   parallaxIt(e, $paralaxSlide1e, -50);
-  parallaxIt(e, "img", -30);
+  parallaxIt(e, $imgSlide1e, -40);
+  parallaxIt(e, $subimgSlide1e, -30);
 })
 
 function parallaxIt(e, target, movement) {
@@ -709,12 +716,47 @@ function parallaxIt(e, target, movement) {
 //   });
 // }
 
-$carouselcontenedorParalax3c
-$carouselparalaxSlide3c
-$carouselimgSlide3c
-$carouselsubimgSlide3c
+
 
 // carousel efecto paralax
+// carousel paralax 1
+
+$($carouselcontenedorParalax1a).mousemove(function(e) {
+  parallaxIt(e, $carouselparalaxSlide1a, -50);
+  parallaxIt(e, $carouselimgSlide1a, -40);
+  parallaxIt(e, $carouselsubimgSlide1a, -30);
+})
+
+function parallaxIt(e, target, movement) {
+  var $this = $($carouselparalaxSlide1a);
+  var relX = e.pageX - $this.offset().right;
+  var relY = e.pageY - $this.offset().top;
+
+  TweenMax.to(target, 1, {
+
+    x: (relX - $this.width() / 2) / $this.width() * movement,
+    y: (relY - $this.height() / 2) / $this.height() * movement
+  });
+}
+
+$($carouselcontenedorParalax2b).mousemove(function(e) {
+  parallaxIt(e, $carouselparalaxSlide2b, -50);
+  parallaxIt(e, $carouselimgSlide2b, -40);
+  parallaxIt(e, $carouselsubimgSlide2b, -30);
+})
+
+function parallaxIt(e, target, movement) {
+  var $this = $($carouselparalaxSlide2b);
+  var relX = e.pageX - $this.offset().right;
+  var relY = e.pageY - $this.offset().top;
+
+  TweenMax.to(target, 1, {
+
+    x: (relX - $this.width() / 2) / $this.width() * movement,
+    y: (relY - $this.height() / 2) / $this.height() * movement
+  });
+}
+// carousel paralax 3
 
 $($carouselcontenedorParalax3c).mousemove(function(e) {
   parallaxIt(e, $carouselparalaxSlide3c, -50);

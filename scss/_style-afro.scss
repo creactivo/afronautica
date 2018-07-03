@@ -246,7 +246,8 @@ body{
     height:100%;
     left:0%;
     }
-}#aparecido1d{
+}
+#aparecido1d{
   position:fixed;
   width: 100%;
   height: 100%;
@@ -555,7 +556,9 @@ body{
     position:fixed;
     left:0%;
     }
-}#aparecido1d{
+}
+
+#aparecido1d{
   position:fixed;
   width: 100%;
   height: 100%;
@@ -565,8 +568,6 @@ body{
     position:fixed;
     right:0%;
     }
-
-  
 }
 #aparecido2d{
   position:fixed;
@@ -578,8 +579,6 @@ body{
     position:fixed;
     left:0%;
     }
-
-  
 }
 #aparecido3d{
   position:fixed;
@@ -591,8 +590,6 @@ body{
     position:fixed;
     right:0%;
     }
-
-  
 }
 #aparecido4d{
   position:fixed;
@@ -615,8 +612,6 @@ body{
     position:fixed;
     right:0%;
     }
-
-  
 }
 #aparecido2e{
   position:fixed;
@@ -628,8 +623,6 @@ body{
     position:fixed;
     left:0%;
     }
-
-  
 }
 #aparecido3e{
   position:fixed;
@@ -641,8 +634,6 @@ body{
     position:fixed;
     right:0%;
     }
-
-  
 }
 #aparecido4e{
   position:fixed;
@@ -691,6 +682,7 @@ body{
     transform-origin: top right;
 }
 }
+
 .background-afro-carrito{
     position: absolute;
     top: 0;
@@ -730,10 +722,6 @@ body{
     border-radius:10px;
 }
 
-// .scroll-afro{
-//     height: 100vw;
-//     overflow: auto;
-// }
 .card-afro {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgba(255, 255, 255, 0);
@@ -858,34 +846,44 @@ body{
     z-index: 46;
     position: relative;
 }
+
+
+//CAROUSEL ESTILOS INICIO
 .supercarousel{
     position:fixed;
-    display:block;
     color:white;
     width:100%;
     height:100%;
     z-index:0;
+    -ms-display: flex;
+    display: flex;
+  /* alineacion vertical */
+    align-items: center;
+   /* alineacion horizontal */
+    justify-content: center;
 }
+
 .carousel-caption{
     position: absolute;
     right: 15%;
-    bottom: 20px;
+    bottom: 0px;
     left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
 }
+
 .supercarouselfuente{
-    font-size:2rem;
-    font-weight:600;
     text-align:center;
     text-shadow:0px 1px 5px #000;
     margin-left:auto;
     margin-right:auto;
     & h1{
+    font-weight:600;
     font-family: 'Ubuntu', sans-serif;
     font-size:2rem;
+    line-height:2rem;
     position: relative;
     }
     & p{
@@ -895,16 +893,14 @@ body{
     font-weight: 300;
     position: relative;
 
-  }
+    }
 }
 .subimg-carousel{
     position: relative;
-    bottom: -220px;
+    bottom: -150px;
 }
 @media (min-width: 768px){
-.supercarouselfuente{
-    font-size:5vw;
-    font-weight:600;
+  .supercarouselfuente{
     text-align:center;
     text-shadow:0px 1px 5px #000;
     margin-left:auto;
@@ -913,38 +909,30 @@ body{
     padding-right:10%;
     & h1{
     font-family: 'Ubuntu', sans-serif;
-    font-size:5rem;
-    line-height:5rem;
+    font-size:6rem;
+    line-height:6rem;
     font-weight: 500;
     }
     & p{
     font-family: 'Ubuntu', sans-serif;
-    font-size:1.4rem;
-    line-height:1.4rem;
+    font-size:2rem;
+    line-height:2rem;
     font-weight: 300;
-
-  }
-}
-}
-.img-carousel {
-    max-width: 100%;
-    margin-top: 50%;
-}
-
-@media (min-width: 768px){
-.img-carousel{
-  max-width:50%;
-  margin-top:5%;
-  height:100%;
-  }
-}
-@media (min-width: 960px){
-.img-carousel {
-    max-width: 60%;
-    margin-top: 16%;
-    height: 100%;
     }
+  }
+  .carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 25%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+  }
 }
+
+//CAROUSEL ESTILOS FIN
 
 .cerrar2{
     line-height: 3.2rem;
@@ -1053,7 +1041,7 @@ body{
 }
 }
 //parallax inicio
-#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4, #contenedor-paralax5,#contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b,#contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c,#contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c,#contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d,#contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
+#contenedor-paralax1, #contenedor-paralax2, #contenedor-paralax3, #contenedor-paralax4, #contenedor-paralax5,#contenedor-paralax1b, #contenedor-paralax2b, #contenedor-paralax3b, #contenedor-paralax4b,#contenedor-paralax1c, #contenedor-paralax2c, #contenedor-paralax3c, #contenedor-paralax4c,#contenedor-paralax1d, #contenedor-paralax2d, #contenedor-paralax3d, #contenedor-paralax4d,#contenedor-paralax1e, #contenedor-paralax2e, #contenedor-paralax3e, #contenedor-paralax4e {
   position: relative;
   width: 100%;
   //border: solid 1px red;
