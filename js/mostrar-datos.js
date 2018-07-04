@@ -19,6 +19,7 @@ function salvarCampo(){
 impTablaCampos()
 }
 
+
 function impTablaCampos(){
 	
 		var list = JSON.parse(localStorage.getItem('newCamposset'));
@@ -41,10 +42,6 @@ function impTablaCampos(){
  function get_ip(obj){
             var obj_ip =  localStorage.setItem('textIp', JSON.stringify(obj.ip));          
         }
-
-
-
-
 
 
 
