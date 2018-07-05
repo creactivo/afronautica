@@ -79,7 +79,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton1a{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -91,7 +91,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton2a{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -105,7 +105,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton3a{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -119,7 +119,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton4a{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -132,7 +132,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton5a{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -146,7 +146,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton1b{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -160,7 +160,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton2b{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -174,7 +174,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton3b{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -188,7 +188,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton4b{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -200,7 +200,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton1c{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -214,7 +214,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton2c{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -228,7 +228,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton3c{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -242,7 +242,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton4c{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -254,7 +254,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton1d{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -268,7 +268,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton2d{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -282,7 +282,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton3d{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -296,7 +296,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton4d{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -308,7 +308,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton1e{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -322,7 +322,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton2e{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -336,7 +336,7 @@ body{
   right:100%;
   transition: all 1s ease;
     &.boton3e{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     right:0%;
     }
@@ -350,7 +350,7 @@ body{
   left:100%;
   transition: all 1s ease;
     &.boton4e{
-    overflow:auto;
+    overflow-x: hidden;
     height:100%;
     left:0%;
     }
@@ -365,7 +365,7 @@ body{
     width: 100%;
     height: 800px;
     min-height: 35rem;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color: rgba(255, 255, 255, 0.99);
     /* -webkit-transform-origin: bottom left; */
     /*-ms-transform-origin: bottom left;*/
     /* transform-origin: bottom left; */
@@ -379,7 +379,7 @@ body{
     width: 100%;
     height: 800px;
     min-height: 35rem;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color: rgba(255, 255, 255, 0.99);
     // -webkit-transform-origin: top right;
     // -ms-transform-origin: top right;
     // transform-origin: top right;
@@ -656,7 +656,7 @@ body{
     width: 110%;
     height: 100%;
     min-height: 35rem;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color: rgba(255, 255, 255, 0.99);
     -webkit-transform: skewX(-10deg);
     -ms-transform: skewX(-10deg);
     transform: skewX(-10deg);
@@ -673,7 +673,7 @@ body{
     width: 100%;
     height: 100%;
     min-height: 35rem;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color: rgba(255, 255, 255, 0.99);
     -webkit-transform: skewX(10deg);
     -ms-transform: skewX(10deg);
     transform: skewX(10deg);

@@ -14,13 +14,13 @@ h1 {
   font-size: 1.8rem; }
 
 h2 {
-  font-size: 5.4rem; }
+  font-size: 1.4rem; }
 
 h3 {
-  font-size: 5.0rem; }
+  font-size: 1.0rem; }
 
 h4 {
-  font-size: .7rem; }
+  font-size: 1.7rem; }
 
 h5 {
   font-size: 5rem; }
@@ -54,31 +54,31 @@ p {
   h1 {
     font-size: 1.8vw; }
   h2 {
-    font-size: 1.4vw; }
+    font-size: 1.4rem; }
   h3 {
-    font-size: 1.0vw; }
+    font-size: 1.0rem; }
   h5 {
     font-size: 5rem; }
   p {
-    font-size: 1.3vw;
-    line-height: 1.4vw; }
+    font-size: 1.3rem;
+    line-height: 1.4rem; }
   .h1, .h2 {
     color: white; }
   .h1 {
     font-family: 'Coustard', serif;
     font-weight: 300;
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: 300;
     text-shadow: 0px 1px 4px #1e9baf; }
   .h2 {
     font-family: 'Coustard', serif;
     font-weight: 300;
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: 600;
     text-shadow: 0px 1px 4px #1e9baf; }
   .p {
-    font-size: 2vw;
-    line-height: 2vw; } }
+    font-size: 2rem;
+    line-height: 2rem; } }
 
 body {
   height: 100%;
@@ -312,7 +312,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1.boton1a {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -325,7 +325,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2.boton2a {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -338,7 +338,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3.boton3a {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -351,7 +351,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4.boton4a {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -364,7 +364,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido5.boton5a {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -377,7 +377,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1b.boton1b {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -390,7 +390,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2b.boton2b {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -403,7 +403,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3b.boton3b {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -416,7 +416,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4b.boton4b {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -429,7 +429,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1c.boton1c {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -442,7 +442,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2c.boton2c {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -455,7 +455,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3c.boton3c {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -468,7 +468,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4c.boton4c {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -481,7 +481,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1d.boton1d {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -494,7 +494,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2d.boton2d {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -507,7 +507,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3d.boton3d {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -520,7 +520,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4d.boton4d {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -533,7 +533,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido1e.boton1e {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -546,7 +546,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido2e.boton2e {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -559,7 +559,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido3e.boton3e {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
@@ -572,7 +572,7 @@ body {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
   #aparecido4e.boton4e {
-    overflow: auto;
+    overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
@@ -585,7 +585,7 @@ body {
   width: 100%;
   height: 800px;
   min-height: 35rem;
-  background-color: rgba(255, 255, 255, 0.93);
+  background-color: rgba(255, 255, 255, 0.99);
   /* -webkit-transform-origin: bottom left; */
   /*-ms-transform-origin: bottom left;*/
   /* transform-origin: bottom left; */ }
@@ -599,7 +599,7 @@ body {
   width: 100%;
   height: 800px;
   min-height: 35rem;
-  background-color: rgba(255, 255, 255, 0.93); }
+  background-color: rgba(255, 255, 255, 0.99); }
 
 @media (min-width: 768px) {
   .cerrar-dest {
@@ -848,7 +848,7 @@ body {
     width: 110%;
     height: 100%;
     min-height: 35rem;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color: rgba(255, 255, 255, 0.99);
     -webkit-transform: skewX(-10deg);
     -ms-transform: skewX(-10deg);
     transform: skewX(-10deg);
@@ -864,7 +864,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 35rem;
-    background-color: rgba(255, 255, 255, 0.93);
+    background-color: rgba(255, 255, 255, 0.99);
     -webkit-transform: skewX(10deg);
     -ms-transform: skewX(10deg);
     transform: skewX(10deg);

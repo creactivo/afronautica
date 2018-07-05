@@ -10,15 +10,15 @@ var elementoBotonRegistrar = document.querySelector('#btn-enviar');
 
 elementoBotonRegistrar.addEventListener('click', registroFecha);
 
+
+
+
 function registroFecha(){
 	var nfechaInicio = document.querySelector('#textFechainicio').value,
 		nfechaFinal = document.querySelector('#textFechaFinal').value,
 		shorarioSalida = document.querySelector('#horarioSalida').value,
 		ncantAdultos = document.querySelector('#cantAdultos').value,
 		ncantNiños = document.querySelector('#cantNiños').value;
-		/*sespecifiText = document.querySelector('#especifiText').value;*/
-
-
 
 		afechaInicio.push(nfechaInicio);
 		afechaFinal.push(nfechaFinal);
@@ -26,6 +26,7 @@ function registroFecha(){
 		acantAdultos.push(ncantAdultos);
 		acantNiños.push(ncantNiños);
 
+		/*localStorage.setItem('Datosde_reserva', JSON.stringify(datosDeReservas));*/
 
 		localStorage.setItem('Fechaini_reserva', JSON.stringify(afechaInicio));
 		localStorage.setItem('Fechafinal_reserva', JSON.stringify(afechaFinal));
