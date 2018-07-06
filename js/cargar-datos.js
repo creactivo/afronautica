@@ -10,8 +10,9 @@ function agregarReservaSistema(afechaInicio,afechaFinal,ahorarioSalida,acantAdul
 		cantidadniños:acantNiños
 		// id:aidServicio,
 	};
+
 	listaReserva.push(nuevaReserva);
-	localStorageReserva(nuevaReserva);
+	localStorageReserva(listaReserva);
 }
 
 function obtenerReserva(){
@@ -22,7 +23,8 @@ function obtenerReserva(){
 		listaReserva = JSON.parse(storageReserva);
 	}
 	return listaReserva;
+	
 }
-function localStorageReserva(lreserva){
-	localStorage.setItem('localReserva', JSON.stringify(lreserva));
+function localStorageReserva(lafroReserva){
+	localStorage.setItem("localReserva", JSON.stringify(lafroReserva));
 }

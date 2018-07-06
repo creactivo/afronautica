@@ -1,6 +1,6 @@
 
 document.querySelector('#btn-enviar').addEventListener('click', guardarReserva);
-imprimirReserva();
+imprimirReserva()
 
 function guardarReserva() {
 	var sfechaInicio = document.querySelector('#textFechainicio').value,
@@ -9,8 +9,8 @@ function guardarReserva() {
 		scantAdultos = document.querySelector('#cantAdultos').value,
 		scantNiños = document.querySelector('#cantNiños').value;
 
-		agregarReservaSistema(sfechaInicio,sfechaFinal,shorarioSalida,scantAdultos,scantNiños);
-		imprimirReserva();
+	agregarReservaSistema(sfechaInicio,sfechaFinal,shorarioSalida,scantAdultos,scantNiños);
+		imprimirReserva()
 }
 function imprimirReserva(){
 	var listReserva = obtenerReserva(),
