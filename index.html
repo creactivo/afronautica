@@ -1143,6 +1143,7 @@
                       <th scope="col">Hora</th>
                       <th scope="col">Adultos</th>
                       <th scope="col">Niños</th>
+                      <th scope="col">Eliminar</th>
                     </tr>
                   </thead>
                   	<tbody>
@@ -2835,17 +2836,24 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/vide/jquery.vide.min.js"></script>
   <script src="vendor/jquery/jquery.easing.min.js"></script>
-  <script src="js/cargar-datos.js"></script>
-  <script src="js/carga-tabla.js"></script>
+  
   <script type="text/javascript" src="https://api.ipify.org/?format=jsonp&callback=get_ip"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/paralax-carousel.js"></script>
   <script src="js/coming-soon.js"></script>
+   <script src="js/cargar-datos.js"></script>
+  <script src="js/carga-tabla.js"></script>
+ 
+  
 
+
+<!-- funcionalidades -->
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
 
+
+<!-- carousel Afro -->
   <script>
     $('#carouselAfro').on('slide.bs.carousel', function () {
       interval: 8000
@@ -2859,15 +2867,17 @@
     });
   </script>
 
-
+ <!-- obtencion de ip -->
 
   <script type="text/javascript">
+
     function get_ip(obj){
      var ip = get_ip;
-
      localStorage.setItem('ip', JSON.stringify(obj.ip));
    }
   </script>
+
+
   <script type="text/javascript" src="https://api.ipify.org/?format=jsonp&callback=get_ip"></script>
 
 

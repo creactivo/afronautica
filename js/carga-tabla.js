@@ -1,43 +1,52 @@
-function llenarTabla() {
-	document.querySelector('#tbCarrito tbody');
-	tbody = '';
 
-var afechaInicio = JASON.parse(localStorage.getItem('Fechaini_reserva'));
-	afechaFinal =  JASON.parse(localStorage.getItem('Fechafinal_reserva'));
-	ahorarioSalida = JASON.parse(localStorage.getItem('horarioSalida_reserva'));
-	acantAdultos = JASON.parse(localStorage.getItem('adultos_reserva'));
-	acantNiños = JASON.parse(localStorage.getItem('niños_reserva'));
-	
-	var nReserva = afechaInicio.length;
-	for(var i = 0; i < nReserva; i++ ){
-		var fila = document.createElement('tr');
+document.querySelector('#btn-enviar').addEventListener('click', guardarReserva);
+imprimirReserva();
 
-		var celdafechaInicio = document.createElement('td'),
-			celdafechaFinal = document.createElement('td'),
-			celdahorarioSalida = document.createElement('td'),
-			celdacantAdultos = document.createElement('td'),
-			celdacantNiños = document.createElement('td');
+function guardarReserva() {
+	var sfechaInicio = document.querySelector('#textFechainicio').value,
+		sfechaFinal = document.querySelector('#textFechaFinal').value,
+		shorarioSalida = document.querySelector('#horarioSalida').value,
+		scantAdultos = document.querySelector('#cantAdultos').value,
+		scantNiños = document.querySelector('#cantNiños').value;
 
-
-		var nodefechaInicio=document.createTextNode(afechaInicio[i]),
-			nodefechaFinal=document.createTextNode(afechaFinal[i]),
-			nodehorarioSalida=document.createTextNode(ahorarioSalida[i]),
-			nodecantAdultos=document.createTextNode(acantAdultos[i]),
-			nodecantNiños=document.createTextNode(acantNiños[i]);
-
-			celdafechaInicio.appendChild(nodefechaInicio),
-			celdafechaFinal.appendChild(nodefechaFinal),
-			celdahorarioSalida.appendChild(nodehorarioSalida),
-			celdacantAdultos.appendChild(nodecantAdultos),
-			celdacantNiños.appendChild(nodecantNiños);
-
-			fila.appendChild(celdafechaInicio),
-			fila.appendChild(celdafechaFinal),
-			fila.appendChild(celdahorarioSalida),
-			fila.appendChild(celdacantAdultos),
-			fila.appendChild(celdacantNiños);
-
-			tbody.appendChild(fila);
-
-	}
+		agregarReservaSistema(sfechaInicio,sfechaFinal,shorarioSalida,scantAdultos,scantNiños);
+		imprimirReserva();
 }
+function imprimirReserva(){
+	var listReserva = obtenerReserva(),
+	    tbody = document.querySelector('#tbCarrito tbody');
+
+	tbody.innerHTML = '';
+
+	for(var i = 0; i < listReserva.length; i++){
+		var row = tbody.insertRow(i),
+			fechainicioCell = row.insertCell(0);
+			fechafinalCell = row.insertCell(1);
+			horasalidaCell = row.insertCell(2);
+			cantidadadultosCell = row.insertCell(3);
+			cantidadniñosCell = row.insertCell(4);
+			eliminarCell = row.insertCell(5);
+
+
+
+		fechainicioCell.innerHTML = listReserva[i].fechainicio;
+		fechafinalCell.innerHTML = listReserva[i].fechafinal;
+		horasalidaCell.innerHTML = listReserva[i].horasalida;
+		cantidadadultosCell.innerHTML = listReserva[i].cantidadadultos;
+		cantidadniñosCell.innerHTML = listReserva[i].cantidadniños;
+		eliminarCell.innerHTML = listReserva[i].eliminar;
+
+
+		var inputEliminar = document.createElement('input');
+		inputEliminar.type = 'radio';
+		inputEliminar.value = listReserva[i].fechainicio;
+		eliminarCell.appendChild(inputEliminar);
+
+
+
+		tbody.appendChild(row);
+	}
+
+}
+
+
