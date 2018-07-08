@@ -7,8 +7,8 @@ function agregarReservaSistema(afechaInicio,afechaFinal,ahorarioSalida,acantAdul
 		fechafinal : afechaFinal,
 		horasalida : ahorarioSalida,
 		cantidadadultos : acantAdultos,
-		cantidadninos : acantNinos
-		// id:aidServicio,
+		cantidadninos : acantNinos,
+
 	};
 
 	listaReserva.push(nuevaReserva);

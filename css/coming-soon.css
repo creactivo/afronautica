@@ -303,7 +303,7 @@ body {
   visibility: visible;
   display: inherit; }
 
-#aparecido1 {
+#servicio1 {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -311,12 +311,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1.boton1a {
+  #servicio1.boton1a {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido2 {
+#servicio2 {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -324,12 +324,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2.boton2a {
+  #servicio2.boton2a {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido3 {
+#servicio3 {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -337,12 +337,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3.boton3a {
+  #servicio3.boton3a {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido4 {
+#servicio4 {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -350,12 +350,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4.boton4a {
+  #servicio4.boton4a {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido5 {
+#servicio5 {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -363,12 +363,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido5.boton5a {
+  #servicio5.boton5a {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido1b {
+#servicio1b {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -376,12 +376,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1b.boton1b {
+  #servicio1b.boton1b {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido2b {
+#servicio2b {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -389,12 +389,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2b.boton2b {
+  #servicio2b.boton2b {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido3b {
+#servicio3b {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -402,12 +402,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3b.boton3b {
+  #servicio3b.boton3b {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido4b {
+#servicio4b {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -415,12 +415,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4b.boton4b {
+  #servicio4b.boton4b {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido1c {
+#servicio1c {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -428,12 +428,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1c.boton1c {
+  #servicio1c.boton1c {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido2c {
+#servicio2c {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -441,12 +441,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2c.boton2c {
+  #servicio2c.boton2c {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido3c {
+#servicio3c {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -454,12 +454,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3c.boton3c {
+  #servicio3c.boton3c {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido4c {
+#servicio4c {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -467,12 +467,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4c.boton4c {
+  #servicio4c.boton4c {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido1d {
+#servicio1d {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -480,12 +480,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1d.boton1d {
+  #servicio1d.boton1d {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido2d {
+#servicio2d {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -493,12 +493,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2d.boton2d {
+  #servicio2d.boton2d {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido3d {
+#servicio3d {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -506,12 +506,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3d.boton3d {
+  #servicio3d.boton3d {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido4d {
+#servicio4d {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -519,12 +519,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4d.boton4d {
+  #servicio4d.boton4d {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido1e {
+#servicio1e {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -532,12 +532,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido1e.boton1e {
+  #servicio1e.boton1e {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido2e {
+#servicio2e {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -545,12 +545,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido2e.boton2e {
+  #servicio2e.boton2e {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
 
-#aparecido3e {
+#servicio3e {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -558,12 +558,12 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido3e.boton3e {
+  #servicio3e.boton3e {
     overflow-x: hidden;
     height: 100%;
     right: 0%; }
 
-#aparecido4e {
+#servicio4e {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -571,7 +571,7 @@ body {
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease; }
-  #aparecido4e.boton4e {
+  #servicio4e.boton4e {
     overflow-x: hidden;
     height: 100%;
     left: 0%; }
@@ -608,7 +608,7 @@ body {
   .cerrar-media {
     visibility: collapse;
     display: none; }
-  #aparecido1 {
+  #servicio1 {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -616,10 +616,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido1.boton1a {
+    #servicio1.boton1a {
       position: fixed;
       right: 0%; }
-  #aparecido2 {
+  #servicio2 {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -627,10 +627,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido2.boton2a {
+    #servicio2.boton2a {
       position: fixed;
       left: 0%; }
-  #aparecido3 {
+  #servicio3 {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -638,10 +638,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido3.boton3a {
+    #servicio3.boton3a {
       position: fixed;
       right: 0%; }
-  #aparecido4 {
+  #servicio4 {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -649,10 +649,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido4.boton4a {
+    #servicio4.boton4a {
       position: fixed;
       left: 0%; }
-  #aparecido5 {
+  #servicio5 {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -660,10 +660,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido5.boton5a {
+    #servicio5.boton5a {
       position: fixed;
       right: 0%; }
-  #aparecido1b {
+  #servicio1b {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -671,10 +671,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido1b.boton1b {
+    #servicio1b.boton1b {
       position: fixed;
       right: 0%; }
-  #aparecido2b {
+  #servicio2b {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -682,10 +682,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido2b.boton2b {
+    #servicio2b.boton2b {
       position: fixed;
       left: 0%; }
-  #aparecido3b {
+  #servicio3b {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -693,10 +693,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido3b.boton3b {
+    #servicio3b.boton3b {
       position: fixed;
       right: 0%; }
-  #aparecido4b {
+  #servicio4b {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -704,10 +704,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido4b.boton4b {
+    #servicio4b.boton4b {
       position: fixed;
       left: 0%; }
-  #aparecido1c {
+  #servicio1c {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -715,10 +715,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido1c.boton1c {
+    #servicio1c.boton1c {
       position: fixed;
       right: 0%; }
-  #aparecido2c {
+  #servicio2c {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -726,10 +726,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido2c.boton2c {
+    #servicio2c.boton2c {
       position: fixed;
       left: 0%; }
-  #aparecido3c {
+  #servicio3c {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -737,10 +737,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido3c.boton3c {
+    #servicio3c.boton3c {
       position: fixed;
       right: 0%; }
-  #aparecido4c {
+  #servicio4c {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -748,10 +748,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido4c.boton4c {
+    #servicio4c.boton4c {
       position: fixed;
       left: 0%; }
-  #aparecido1d {
+  #servicio1d {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -759,10 +759,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido1d.boton1d {
+    #servicio1d.boton1d {
       position: fixed;
       right: 0%; }
-  #aparecido2d {
+  #servicio2d {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -770,10 +770,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido2d.boton2d {
+    #servicio2d.boton2d {
       position: fixed;
       left: 0%; }
-  #aparecido3d {
+  #servicio3d {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -781,10 +781,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido3d.boton3d {
+    #servicio3d.boton3d {
       position: fixed;
       right: 0%; }
-  #aparecido4d {
+  #servicio4d {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -792,10 +792,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido4d.boton4d {
+    #servicio4d.boton4d {
       position: fixed;
       left: 0%; }
-  #aparecido1e {
+  #servicio1e {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -803,10 +803,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido1e.boton1e {
+    #servicio1e.boton1e {
       position: fixed;
       right: 0%; }
-  #aparecido2e {
+  #servicio2e {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -814,10 +814,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido2e.boton2e {
+    #servicio2e.boton2e {
       position: fixed;
       left: 0%; }
-  #aparecido3e {
+  #servicio3e {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -825,10 +825,10 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido3e.boton3e {
+    #servicio3e.boton3e {
       position: fixed;
       right: 0%; }
-  #aparecido4e {
+  #servicio4e {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -836,7 +836,7 @@ body {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease; }
-    #aparecido4e.boton4e {
+    #servicio4e.boton4e {
       position: fixed;
       left: 0%; }
   .background-afro1 {
@@ -952,7 +952,7 @@ body {
   margin-left: 1%;
   line-height: 1px;
   border-radius: 50%;
-  border: 3px solid #fff; }
+  border: 2px solid #fff; }
   .btn-car-compras > .cls-1 {
     fill: #fff; }
   .btn-car-compras.blue {
@@ -980,7 +980,7 @@ body {
   margin-right: 1%;
   line-height: 1px;
   border-radius: 50%;
-  border: 3px solid #fff; }
+  border: 2px solid #fff; }
   .btn-haburger-menu > .cls-1 {
     fill: #fff; }
   .btn-haburger-menu.blue {
@@ -1373,7 +1373,7 @@ body {
         display: block;
         color: white;
         fill: #fff;
-        border: 2px solid #fff;
+        border: 1px solid #fff;
         /*background-color: fade-out($primary, 0.2);*/
         border-radius: 100%;
         font-size: 1rem;
@@ -1393,7 +1393,7 @@ body {
           color: #1C4288;
           fill: #1C4288;
           background-color: #fff;
-          border: 2px solid #1C4288; }
+          border: 1px solid #1C4288; }
           .social-icons ul > li .gran-icono.blue > p {
             color: #1C4288; }
 
@@ -1425,7 +1425,7 @@ body {
           width: 4rem;
           margin: 0px 30px;
           text-decoration: none;
-          border: 3px solid #fff;
+          border: 2px solid #fff;
           fill: #fff; }
           .social-icons ul > li .gran-icono > p {
             font-size: .8rem;
@@ -1453,7 +1453,7 @@ body {
             color: #1C4288;
             fill: #1C4288;
             background-color: #fff;
-            border: 3px solid #1C4288; }
+            border: 2px solid #1C4288; }
             .social-icons ul > li .gran-icono.blue > p {
               color: #1C4288; }
             .social-icons ul > li .gran-icono.blue > .cls-1 {
@@ -1466,7 +1466,7 @@ body {
             font-size: 1.7rem;
             line-height: 4.5rem;
             color: #1C4288;
-            border: 3px solid #1C4288;
+            border: 2px solid #1C4288;
             background-color: #fff;
             height: 4.5rem;
             width: 4.5rem; }

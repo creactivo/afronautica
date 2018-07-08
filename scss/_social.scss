@@ -16,7 +16,7 @@
         display: block;
         color: white;
         fill:$white;
-        border: 2px solid #fff;
+        border: 1px solid #fff;
         /*background-color: fade-out($primary, 0.2);*/
         border-radius: 100%;
         font-size: 1rem;
@@ -37,7 +37,7 @@
         color: $blue-afro;
         fill:$blue-afro;
         background-color: #fff;
-        border: 2px solid $blue-afro;
+        border: 1px solid $blue-afro;
         > p{
           color: $blue-afro;
         }
@@ -73,7 +73,7 @@
           width: 4rem;
           margin: 0px 30px;
           text-decoration:none;
-          border: 3px solid $white;
+          border: 2px solid $white;
           fill:$white;
           > p{
             font-size: .8rem;
@@ -103,7 +103,7 @@
           color: $blue-afro;
           fill:$blue-afro;
           background-color: #fff;
-          border: 3px solid $blue-afro;
+          border: 2px solid $blue-afro;
           > p{color: $blue-afro;}
           >.cls-1{
             fill:$blue-afro;
@@ -118,7 +118,7 @@
           font-size: 1.7rem;
           line-height: 4.5rem;
           color: $blue-afro;
-          border: 3px solid $blue-afro;
+          border: 2px solid $blue-afro;
           background-color:$white;
           height: 4.5rem;
           width: 4.5rem;

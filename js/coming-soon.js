@@ -1,4 +1,4 @@
-var $target1 = $('#aparecido1,#aparecido2,#aparecido3,#aparecido4,#aparecido5,#aparecido1b,#aparecido2b,#aparecido3b,#aparecido4b,#aparecido1c,#aparecido2c,#aparecido3c,#aparecido4c,#aparecido1d,#aparecido2d,#aparecido3d,#aparecido4d,#aparecido1e,#aparecido2e,#aparecido3e,#aparecido4e');
+var $target1 = $('#servicio1,#servicio2,#servicio3,#servicio4,#servicio5,#servicio1b,#servicio2b,#servicio3b,#servicio4b,#servicio1c,#servicio2c,#servicio3c,#servicio4c,#servicio1d,#servicio2d,#servicio3d,#servicio4d,#servicio1e,#servicio2e,#servicio3e,#servicio4e');
 var $target2 = $('#boton-inferiores1,#boton-inferiores2,#boton-inferiores3,#boton-inferiores4,#boton-inferiores5');
 var $classbtcerrar1 = $('#boton-cerrar1,#boton-cerrar2');
 

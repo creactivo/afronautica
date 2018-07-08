@@ -7,6 +7,8 @@ function guardarReserva() {
 		shorarioSalida = document.querySelector('#horarioSalida').value,
 		scantAdultos = document.querySelector('#cantAdultos').value,
 		scantNinos = document.querySelector('#cantNinos').value;
+	
+
 
 	agregarReservaSistema(sfechaInicio,sfechaFinal,shorarioSalida,scantAdultos,scantNinos);
 		
@@ -34,19 +36,17 @@ function imprimirReserva(){
 			horasalidaCell.innerHTML = listReservass[i].horasalida;
 			cantidadadultosCell.innerHTML = listReservass[i].cantidadadultos;
 			cantidadninosCell.innerHTML = listReservass[i].cantidadninos;
-			eliminarCell.innerHTML = listReservass[i].eliminar;
+			eliminarCell.innerHTML = '';
 
 
 		var inputEliminar = document.createElement('button');
 		inputEliminar.type = 'button';
-		inputEliminar.id = 'btnEliminarTabla';
 		inputEliminar.name = 'Eliminar';
-		inputEliminar.value = listReservass[i].Previous;
-
+		inputEliminar.className = 'btn btn-outline-primary';
+		inputEliminar.innerHTML = 'x';
+		inputEliminar.value = i;
 		eliminarCell.appendChild(inputEliminar);
-function btnEliminarLinia(){
-	btnEliminarTabla.delate(nuevaReserva);
-}
+
 
 
 		tbody.appendChild(row);
