@@ -1,13 +1,13 @@
 var listaReserva = [];
 
 // aidServicio-------------------va aca en el agregarReserva
-function agregarReservaSistema(afechaInicio,afechaFinal,ahorarioSalida,acantAdultos,acantNiños){
+function agregarReservaSistema(afechaInicio,afechaFinal,ahorarioSalida,acantAdultos,acantNinos){
 	var nuevaReserva = {
-		fechainicio:afechaInicio,
-		fechafinal:afechaFinal,
-		horasalida:ahorarioSalida,
-		cantidadadultos:acantAdultos,
-		cantidadniños:acantNiños
+		fechainicio : afechaInicio,
+		fechafinal : afechaFinal,
+		horasalida : ahorarioSalida,
+		cantidadadultos : acantAdultos,
+		cantidadninos : acantNinos
 		// id:aidServicio,
 	};
 
@@ -26,5 +26,5 @@ function obtenerReserva(){
 	
 }
 function localStorageReserva(lafroReserva){
-	localStorage.setItem("localReserva", JSON.stringify(lafroReserva));
+	localStorage.setItem('localReserva', JSON.stringify(lafroReserva));
 }
